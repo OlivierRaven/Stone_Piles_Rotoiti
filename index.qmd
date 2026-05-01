@@ -1,0 +1,97 @@
+---
+title: "Reenforcing kōura recielince using artefical reefs"
+subtitle: "Kōura reefs"
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    link-citations: true
+    includes:
+      in-header: references/header.tex
+  docx:
+    reference-doc: references/reference.docx
+execute:
+  freeze: false
+  cache: false
+
+author:
+  - name:
+      given: Olivier V.
+      family: Raven
+    orcid: 0009-0008-6184-6831
+    affiliations:
+      - name: University of Waikato
+        department: Te Aka Mātuatua – School of Science
+        address: Private Bag 3105, Hamilton 3240
+        country: New Zealand
+    email: olivier.raven@icloud.com; or81@students.waikato.ac.nz
+    corresponding: true
+
+  - name: 
+      given: Ian A. 
+      family: Kusabs
+    orcid: 0000-0002-1473-7447
+    affiliations:
+      - name: Ian Kusabs and Associates Limited
+        address: 21 Summit Road, Rotorua 3076
+        country: New Zealand
+
+  - name:
+      given: Robin
+      family: Holmes
+    orcid: 0000-0002-8737-2717
+    affiliations:
+      - name: The Cawthron Institute
+        address: 98 Halifax Street East, Nelson 7010, Private Bag 2, Nelson 7042
+        country: New Zealand
+        
+  - name: 
+      given: Francis J. 
+      family: Burdon
+    orcid: 0000-0002-5398-4993
+    affiliations:
+      - name: University of Waikato
+        department: Te Aka Mātuatua – School of Science
+        address: Private Bag 3105, Hamilton 3240
+        country: New Zealand
+        
+  - name:  
+      given: Deniz
+      family: Özkundakci
+    orcid: 0000-0002-5442-4576
+    affiliations:
+      - name: University of Waikato
+        department: Te Aka Mātuatua – School of Science
+        address: Private Bag 3105, Hamilton 3240
+        country: New Zealand
+
+date: today
+
+abstract: koura reefs
+ 
+keywords:
+  - Crayfish
+  - Kōura
+  - Brown bullhead catfish
+  - Artefical reefs
+
+funding: "This research was supported by the Fish Futures programme funded through a Ministry of Business, Innovation and Employment grant (CAWX2101)"
+
+citation:
+  container-title: "..."
+
+---
+
+```{r}
+#| label: start
+#| include: false
+
+# run analysis notebook to make all variables available
+knitr::knit("analysis.qmd", output = tempfile(), quiet = TRUE)
+```
+
+# Introduction
