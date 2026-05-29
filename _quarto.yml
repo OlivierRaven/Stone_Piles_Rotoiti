@@ -1,21 +1,31 @@
 project:
-  type: website
+  type: manuscript
   output-dir: docs
-
-website:
-  title: "Reefs Rotoiti"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-
-format:
-  html:
-    toc: true
-    number-sections: true
+  post-render: deploy.R
 
 execute:
   freeze: auto
-  warning: false
-  message: false
+  cache: false
 
+manuscript:
+  article: index.qmd
+  notebooks:
+    - notebook: analysis.qmd
+      title: "Analysis Notebook"
+
+format:
+  html:
+    theme: cosmo
+    format-links: [pdf, docx]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    link-citations: true
+    includes:
+      in-header: references/header.tex
+  docx:
+    reference-doc: references/reference.docx
+
+bibliography: references/references.bib
+csl: references/apa.csl

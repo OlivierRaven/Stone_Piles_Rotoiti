@@ -1,0 +1,21 @@
+"model","term","estimate","std.error","statistic","p.value","conf.low","conf.high"
+"M1 CPUE (lmer)","(Intercept)",0.2554,0.7935,0.3219,0.7511,-1.4051,1.9159
+"M1 CPUE (lmer)","PeriodAfter",0.4305,0.3239,1.3291,0.1906,-0.2222,1.0833
+"M1 CPUE (lmer)","siteStone_pile",0.0231,0.2903,0.0795,0.9372,-0.5722,0.6183
+"M1 CPUE (lmer)","monitoring_int",-0.0397,0.0462,-0.8593,0.3949,-0.1328,0.0534
+"M1 CPUE (lmer)","Temperature",0.0017,0.0204,0.0814,0.9355,-0.0394,0.0427
+"M1 CPUE (lmer)","Substrate_index",-0.0077,0.0246,-0.3139,0.7653,-0.0696,0.0541
+"M1 CPUE (lmer)","PeriodAfter:siteStone_pile",0.292,0.3024,0.9656,0.3395,-0.3174,0.9014
+"M2 Occupancy (glmmTMB)","(Intercept)",-11.1854,5.71,-1.9589,0.0501,-22.3767,0.006
+"M2 Occupancy (glmmTMB)","PeriodAfter",3.6799,2.4436,1.5059,0.1321,-1.1095,8.4693
+"M2 Occupancy (glmmTMB)","siteStone_pile",0.2189,2.0452,0.107,0.9148,-3.7897,4.2275
+"M2 Occupancy (glmmTMB)","monitoring_int",-0.1852,0.3225,-0.5743,0.5658,-0.8173,0.4469
+"M2 Occupancy (glmmTMB)","Temperature",0.2478,0.1656,1.4959,0.1347,-0.0769,0.5724
+"M2 Occupancy (glmmTMB)","Substrate_index",0.1973,0.1505,1.3108,0.1899,-0.0977,0.4922
+"M2 Occupancy (glmmTMB)","PeriodAfter:siteStone_pile",1.9141,2.0175,0.9488,0.3427,-2.0401,5.8684
+"M3 Convergence (lmer)","(Intercept)",0.1404,0.9727,0.1444,0.8873,-1.9489,2.2297
+"M3 Convergence (lmer)","siteStone_pile",-0.1632,0.509,-0.3206,0.7532,-1.2534,0.9271
+"M3 Convergence (lmer)","monitoring_int",-0.0193,0.0332,-0.5802,0.5637,-0.0856,0.047
+"M3 Convergence (lmer)","Temperature",-8e-04,0.0115,-0.0707,0.9439,-0.0237,0.0221
+"M3 Convergence (lmer)","Substrate_index",0.0221,0.0289,0.7656,0.4587,-0.0408,0.085
+"M3 Convergence (lmer)","siteStone_pile:monitoring_int",0.1146,0.0559,2.0483,0.0445,0.0029,0.2263

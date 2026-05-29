@@ -1,19 +1,7 @@
 ---
-title: "Reenforcing kōura recielince using artefical reefs"
+title: "Reenforcing kōura reseliance using habitat enhancing structures"
 subtitle: "Kōura reefs"
 
-format:
-  html:
-    theme: cosmo
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
-    link-citations: true
-    includes:
-      in-header: references/header.tex
-  docx:
-    reference-doc: references/reference.docx
 execute:
   freeze: false
   cache: false
@@ -32,7 +20,7 @@ author:
     corresponding: true
 
   - name: 
-      given: Ian A. 
+      given: Ian A. K.
       family: Kusabs
     orcid: 0000-0002-1473-7447
     affiliations:
@@ -84,14 +72,89 @@ funding: "This research was supported by the Fish Futures programme funded throu
 citation:
   container-title: "..."
 
+knitr:
+  opts_chunk:
+    dev: "ragg_png"
+
 ---
 
 ```{r}
 #| label: start
 #| include: false
 
-# run analysis notebook to make all variables available
+# Change to chapter directory so relative paths in analysis.qmd resolve correctly
+# when this file is rendered as part of the thesis book from the root directory
+chapter_dir <- dirname(knitr::current_input(dir = TRUE))
+old_wd <- setwd(chapter_dir)
 knitr::knit("analysis.qmd", output = tempfile(), quiet = TRUE)
+setwd(old_wd)
 ```
 
 # Introduction
+Native freshwater crayfish species experiencing global declines.
+
+
+Kōura populations have been declining up to 90% in lake Rotoiti for over the past 20 years. This comes probably due to multiple stressors. Invasive weeds, high temperatures, anoxic zones 
+Artificial reefs as a solution for habitat loss and increasing habitat complexity. 
+Artificial reefs utilized in freshwater systems 
+
+In this study rock reefs have been built along the shoreline of Lake Rotoiti. To investigate the ability of the reefs in providing additional habitat for kōura to live and hide from predators. 
+
+
+# Materials and Methods
+## Study location
+Lake Rotoiti is a volcanic lake with a size of … and a mean depth of …. Around the lake 5 reef sites have been selected based on accessibility by trailer and land owner approval. Local control sites had been appointed 50 meter next to the reef sites. As natural reef reference sites 5 location with each 2 sites (50 meters apart) with natural rocks or natural rocks in the area were selected. In total 20 sites were selected for this study in lake Rotoiti (each 150 m² 15 * 10 m). Monitoring efforts commenced one week prior to the construction of the reefs, establishing baseline conditions. Following reef deployment, seasonal monitoring was conducted for a duration of 1.5 years.
+ 
+## Reefs construction
+Reefs were constructed from natural locally sourced rocks (Manawahe Stone and Quarry) with a size range of 85 - 315 mm and a mean of 173 mm. At the five reef sites rocks were thrown into the lake by hand into three individual piles. The reefs are located around 4 m from the shore with an average depth of 0.53 m and an area of 4.1 m2.
+
+## Monitoring
+Monitoring consisted of physical, chemical, and biological parameters. The physical parameters of the sampling sites were assessed using various visual and measurement-based methods. Substrate composition was visually estimated, categorizing the bedrock, boulders, cobble, gravel, sand, mud, organic matter, and turf (Glossostigma diandrum and Lilaeopsis ruthiana). Shoreline erosion, riparian vegetation cover, overhanging tree cover, and the presence of wood debris were also visually estimated. In addition, both emergent and submerged vegetation cover were recorded. To assess the proximity to deeper waters, a bathymetric map was used, and distances to 20 m depth was calculated . Water clarity was measured using a Secchi disk, which was deployed in the deeper parts of the lake.
+Chemical parameters included water quality measurements such as temperature, dissolved oxygen (DO), and conductivity, which were measured using a YSI ProSolo meter. pH levels were also determined using a handheld pH meter.
+Biological parameters were collected with two fyke nets and two catfish-baited box traps to catch kōura and fish at each site. Fish and kōura abundance were calculated using CPUE (catch per unit effort). Kōura specimens were measured for orbital carapace length (OCL) and weight. Catfish and other fish species were also assessed for abundance, total length, and weight. Macroinvertebrates were collected through sweep netting and rock lifting, and species richness was recorded. Additionally, macroinvertebrates caught in the fyke, and box traps were recorded.
+
+designing the monitoring [@Conquest2000; @Baumann2016]
+
+
+Data analysis
+
+# Deep reefs
+The monitoring with the ROV was started 1 hour after sunset when there was no more light in the sky. The ROV was deployed at the end of a jetty into a depth of 2 m and filming the bottom of the lake. 
+
+# Results
+
+# Discussion
+
+Most koura were found along the edges of the reefs there for recommended future reefs should be designed to create the most edges.  
+
+## Conclusion
+
+# Acknowledgements
+We thank Te Arawa Lakes Trust and Te Komiti Whakahaere for the opportunity to collect and study the treasured kōura. We are grateful to Soweeta Fort-D’ath and William Anaru (Te Arawa Lakes Trust), and Tihini Grant (Ngāti Pikiao). Also thanks to the Tāheke marae and land owners ..... of the reef building sites for access when monitoring. And .... for asistence with fieldwork
+
+This research was supported by the Fish Futures programme funded through a Ministry of Business, Innovation and Employment grant (CAWX2101).
+
+## Authors’ contributions
+Study conception and design were undertaken by O.V.R., I.A.K.K., R.H., F.J.B. and D.Ö. Fieldwork was executed by O.V.R. Data analysis was performed by O.V.R. Local ecological knowledge was supplied by I.A.K.K. Manuscript drafting was led by O.V.R. All authors contributed to manuscript revision, approved the results, and the final manuscript.
+
+## Declarations
+The corresponding author has declared that none of the authors has any competing interests.
+
+## Data availability statement
+The code and derived data supporting the findings of this study are openly available on GitHub (https://github.com/OlivierRaven/Reefs_Mesocosm)and a rendered version of the analysis is hosted at https://olivierraven.github.io/Reefs_Mesocosm/. The primary raw dataset is archived on Zenodo (https://doi.org/......). Peer review documents, including the cover letter and reviewer responses, are available in the manuscript repository in the interest of open and transparent science.
+
+# Tables
+
+# Figures
+![Map of the monitoring sites.](images/Rotoiti_monitoring_sites.png){#fig-sites}
+
+{{< embed analysis.qmd#fig-... >}}
+
+
+
+# Supplementary information
+
+
+
+
+
