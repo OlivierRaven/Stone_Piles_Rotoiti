@@ -4,8 +4,10 @@ project:
   post-render: deploy.R
 
 execute:
-  freeze: auto
-  cache: false
+  freeze: false
+  cache: true
+  warning: false
+  message: false
 
 manuscript:
   article: index.qmd
@@ -15,7 +17,17 @@ manuscript:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+    code-fold: true
+    code-tools: true
+    code-summary: "View Code"
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    smooth-scroll: true
     format-links: [pdf, docx]
   pdf:
     toc: true
@@ -26,6 +38,12 @@ format:
       in-header: references/header.tex
   docx:
     reference-doc: references/reference.docx
+    filters:
+      - at: pre-quarto
+        path: filters/docx-title-page.lua
+
+fig-width: 8
+fig-height: 6
 
 bibliography: references/references.bib
 csl: references/apa.csl

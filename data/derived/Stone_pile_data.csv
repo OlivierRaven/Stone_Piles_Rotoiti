@@ -1,0 +1,196 @@
+"site_id","monitoring_id","stone_pile_id","parameter","unit","value","notes"
+1,"1_0",1,"Shape","shape","Round",NA
+1,"1_0",1,"Distance_to_shore","mm","1600",NA
+1,"1_0",1,"Length","mm","2500",NA
+1,"1_0",1,"Width","mm","2200",NA
+1,"1_0",1,"Area","m2","5.5","keep formula"
+1,"1_0",1,"Weight","kg","1013.3333333333334","keep formula"
+1,"1_0",1,"Depth_on_R","mm","420",NA
+1,"1_0",1,"Depth_on_L","mm","450",NA
+1,"1_0",1,"Height_above","mm","170",NA
+1,"1_0",1,"Depth_after","mm","580",NA
+1,"1_0",1,"Volume","m3","1.1733333333333336","keep formula"
+1,"1_0",1,"Sedimentation","mm","295","Back"
+1,"1_0",1,"Accumulation_of_weeds","%","0",NA
+1,"1_0",2,"Shape","shape","Round",NA
+1,"1_0",2,"Distance_to_shore","mm","2100",NA
+1,"1_0",2,"Length","mm","2400",NA
+1,"1_0",2,"Width","mm","2200",NA
+1,"1_0",2,"Area","m2","5.28","keep formula"
+1,"1_0",2,"Weight","kg","1013.3333333333334","keep formula"
+1,"1_0",2,"Depth_on_R","mm","480",NA
+1,"1_0",2,"Depth_on_L","mm","440",NA
+1,"1_0",2,"Height_above","mm","120",NA
+1,"1_0",2,"Depth_after","mm","570",NA
+1,"1_0",2,"Volume","m3","1.2056","keep formula"
+1,"1_0",2,"Sedimentation","mm","295.75","Front"
+1,"1_0",2,"Accumulation_of_weeds","%","0",NA
+1,"1_0",3,"Shape","shape","Round",NA
+1,"1_0",3,"Distance_to_shore","mm","3000",NA
+1,"1_0",3,"Length","mm","2400",NA
+1,"1_0",3,"Width","mm","2500",NA
+1,"1_0",3,"Area","m2","6","keep formula"
+1,"1_0",3,"Weight","kg","1013.3333333333334","keep formula"
+1,"1_0",3,"Depth_on_R","mm","530",NA
+1,"1_0",3,"Depth_on_L","mm","500",NA
+1,"1_0",3,"Height_above","mm","190",NA
+1,"1_0",3,"Depth_after","mm","620",NA
+1,"1_0",3,"Volume","m3","1.46","keep formula"
+1,"1_0",3,"Sedimentation","mm","383.25","Right"
+1,"1_0",3,"Accumulation_of_weeds","%","0",NA
+3,"3_0",1,"Shape","shape","Round",NA
+3,"3_0",1,"Distance_to_shore","mm","4700",NA
+3,"3_0",1,"Length","mm","2200",NA
+3,"3_0",1,"Width","mm","1900",NA
+3,"3_0",1,"Area","m2","4.18","keep formula"
+3,"3_0",1,"Weight","kg","660","keep formula"
+3,"3_0",1,"Depth_on_R","mm","360",NA
+3,"3_0",1,"Depth_on_L","mm","345",NA
+3,"3_0",1,"Height_above","mm","85",NA
+3,"3_0",1,"Depth_after","mm","365",NA
+3,"3_0",1,"Volume","m3","0.68621666666666659","keep formula"
+3,"3_0",1,"Sedimentation","mm","360","Behind"
+3,"3_0",1,"Accumulation_of_weeds","%","2",NA
+3,"3_0",2,"Shape","shape","Round",NA
+3,"3_0",2,"Distance_to_shore","mm","5700",NA
+3,"3_0",2,"Length","mm","1500",NA
+3,"3_0",2,"Width","mm","1600",NA
+3,"3_0",2,"Area","m2","2.4","keep formula"
+3,"3_0",2,"Weight","kg","660","keep formula"
+3,"3_0",2,"Depth_on_R","mm","360",NA
+3,"3_0",2,"Depth_on_L","mm","365",NA
+3,"3_0",2,"Height_above","mm","75",NA
+3,"3_0",2,"Depth_after","mm","390",NA
+3,"3_0",2,"Volume","m3","0.41599999999999998","keep formula"
+3,"3_0",2,"Sedimentation","mm","343","Front"
+3,"3_0",2,"Accumulation_of_weeds","%","0",NA
+3,"3_0",3,"Shape","shape","Round",NA
+3,"3_0",3,"Distance_to_shore","mm","4200",NA
+3,"3_0",3,"Length","mm","1900",NA
+3,"3_0",3,"Width","mm","2000",NA
+3,"3_0",3,"Area","m2","3.8","keep formula"
+3,"3_0",3,"Weight","kg","660","keep formula"
+3,"3_0",3,"Depth_on_R","mm","330",NA
+3,"3_0",3,"Depth_on_L","mm","330",NA
+3,"3_0",3,"Height_above","mm","75",NA
+3,"3_0",3,"Depth_after","mm","380",NA
+3,"3_0",3,"Volume","m3","0.61116666666666675","keep formula"
+3,"3_0",3,"Sedimentation","mm","318.5","Right"
+3,"3_0",3,"Accumulation_of_weeds","%","0",NA
+5,"5_0",1,"Shape","shape","Round",NA
+5,"5_0",1,"Distance_to_shore","mm","3500",NA
+5,"5_0",1,"Length","mm","2300",NA
+5,"5_0",1,"Width","mm","1700",NA
+5,"5_0",1,"Area","m2","3.91","keep formula"
+5,"5_0",1,"Weight","kg","1233.3333333333333","keep formula"
+5,"5_0",1,"Depth_on_R","mm","450",NA
+5,"5_0",1,"Depth_on_L","mm","430",NA
+5,"5_0",1,"Height_above","mm","135",NA
+5,"5_0",1,"Depth_after","mm","420",NA
+5,"5_0",1,"Volume","m3","0.7591916666666666","keep formula"
+5,"5_0",1,"Sedimentation","mm","370.5","Right"
+5,"5_0",1,"Accumulation_of_weeds","%","10",NA
+5,"5_0",2,"Shape","shape","Round",NA
+5,"5_0",2,"Distance_to_shore","mm","3500",NA
+5,"5_0",2,"Length","mm","2300",NA
+5,"5_0",2,"Width","mm","1900",NA
+5,"5_0",2,"Area","m2","4.37","keep formula"
+5,"5_0",2,"Weight","kg","1233.3333333333333","keep formula"
+5,"5_0",2,"Depth_on_R","mm","500",NA
+5,"5_0",2,"Depth_on_L","mm","490",NA
+5,"5_0",2,"Height_above","mm","230",NA
+5,"5_0",2,"Depth_after","mm","505",NA
+5,"5_0",2,"Volume","m3","0.92134166666666673","keep formula"
+5,"5_0",2,"Sedimentation","mm","342.5","Front"
+5,"5_0",2,"Accumulation_of_weeds","%","5",NA
+5,"5_0",3,"Shape","shape","Round",NA
+5,"5_0",3,"Distance_to_shore","mm","3440",NA
+5,"5_0",3,"Length","mm","2300",NA
+5,"5_0",3,"Width","mm","1800",NA
+5,"5_0",3,"Area","m2","4.1399999999999997","keep formula"
+5,"5_0",3,"Weight","kg","1233.3333333333333","keep formula"
+5,"5_0",3,"Depth_on_R","mm","455",NA
+5,"5_0",3,"Depth_on_L","mm","480",NA
+5,"5_0",3,"Height_above","mm","175",NA
+5,"5_0",3,"Depth_after","mm","500",NA
+5,"5_0",3,"Volume","m3","0.86939999999999995","keep formula"
+5,"5_0",3,"Sedimentation","mm","346.75","Back"
+5,"5_0",3,"Accumulation_of_weeds","%","0",NA
+7,"7_0",1,"Shape","shape","Round",NA
+7,"7_0",1,"Distance_to_shore","mm","3900",NA
+7,"7_0",1,"Length","mm","1700",NA
+7,"7_0",1,"Width","mm","1500",NA
+7,"7_0",1,"Area","m2","2.5499999999999998","keep formula"
+7,"7_0",1,"Weight","kg","640","keep formula"
+7,"7_0",1,"Depth_on_R","mm","470",NA
+7,"7_0",1,"Depth_on_L","mm","490",NA
+7,"7_0",1,"Height_above","mm","200",NA
+7,"7_0",1,"Depth_after","mm","500",NA
+7,"7_0",1,"Volume","m3","0.53549999999999998","keep formula"
+7,"7_0",1,"Sedimentation","mm","422.5","Left"
+7,"7_0",1,"Accumulation_of_weeds","%","0",NA
+7,"7_0",2,"Shape","shape","Round",NA
+7,"7_0",2,"Distance_to_shore","mm","4200",NA
+7,"7_0",2,"Length","mm","2000",NA
+7,"7_0",2,"Width","mm","1700",NA
+7,"7_0",2,"Area","m2","3.4","keep formula"
+7,"7_0",2,"Weight","kg","640","keep formula"
+7,"7_0",2,"Depth_on_R","mm","420",NA
+7,"7_0",2,"Depth_on_L","mm","460",NA
+7,"7_0",2,"Height_above","mm","160",NA
+7,"7_0",2,"Depth_after","mm","410",NA
+7,"7_0",2,"Volume","m3","0.64033333333333342","keep formula"
+7,"7_0",2,"Sedimentation","mm","401.25","Back"
+7,"7_0",2,"Accumulation_of_weeds","%","0",NA
+7,"7_0",3,"Shape","shape","Round",NA
+7,"7_0",3,"Distance_to_shore","mm","4400",NA
+7,"7_0",3,"Length","mm","2000",NA
+7,"7_0",3,"Width","mm","1800",NA
+7,"7_0",3,"Area","m2","3.6","keep formula"
+7,"7_0",3,"Weight","kg","640","keep formula"
+7,"7_0",3,"Depth_on_R","mm","450",NA
+7,"7_0",3,"Depth_on_L","mm","480",NA
+7,"7_0",3,"Height_above","mm","190",NA
+7,"7_0",3,"Depth_after","mm","490",NA
+7,"7_0",3,"Volume","m3","0.73799999999999999","keep formula"
+7,"7_0",3,"Sedimentation","mm","368.25","Front"
+7,"7_0",3,"Accumulation_of_weeds","%","0",NA
+9,"9_0",1,"Shape","shape","Round",NA
+9,"9_0",1,"Distance_to_shore","mm","6400",NA
+9,"9_0",1,"Length","mm","1800",NA
+9,"9_0",1,"Width","mm","2000",NA
+9,"9_0",1,"Area","m2","3.6","keep formula"
+9,"9_0",1,"Weight","kg","1003.3333333333334","keep formula"
+9,"9_0",1,"Depth_on_R","mm","630",NA
+9,"9_0",1,"Depth_on_L","mm","615",NA
+9,"9_0",1,"Height_above","mm","280",NA
+9,"9_0",1,"Depth_after","mm","715",NA
+9,"9_0",1,"Volume","m3","1.008","keep formula"
+9,"9_0",1,"Sedimentation","mm","405.25","Front"
+9,"9_0",1,"Accumulation_of_weeds","%","0",NA
+9,"9_0",2,"Shape","shape","Round",NA
+9,"9_0",2,"Distance_to_shore","mm","6700",NA
+9,"9_0",2,"Length","mm","2500",NA
+9,"9_0",2,"Width","mm","2100",NA
+9,"9_0",2,"Area","m2","5.25","keep formula"
+9,"9_0",2,"Weight","kg","1003.3333333333334","keep formula"
+9,"9_0",2,"Depth_on_R","mm","740",NA
+9,"9_0",2,"Depth_on_L","mm","700",NA
+9,"9_0",2,"Height_above","mm","340",NA
+9,"9_0",2,"Depth_after","mm","770",NA
+9,"9_0",2,"Volume","m3","1.63625","keep formula"
+9,"9_0",2,"Sedimentation","mm","441.5","Right"
+9,"9_0",2,"Accumulation_of_weeds","%","0",NA
+9,"9_0",3,"Shape","shape","Round",NA
+9,"9_0",3,"Distance_to_shore","mm","6600",NA
+9,"9_0",3,"Length","mm","2200",NA
+9,"9_0",3,"Width","mm","1600",NA
+9,"9_0",3,"Area","m2","3.52","keep formula"
+9,"9_0",3,"Weight","kg","1003.3333333333334","keep formula"
+9,"9_0",3,"Depth_on_R","mm","740",NA
+9,"9_0",3,"Depth_on_L","mm","750",NA
+9,"9_0",3,"Height_above","mm","350",NA
+9,"9_0",3,"Depth_after","mm","780",NA
+9,"9_0",3,"Volume","m3","1.1264000000000001","keep formula"
+9,"9_0",3,"Sedimentation","mm","400.75","Right"
+9,"9_0",3,"Accumulation_of_weeds","%","0",NA

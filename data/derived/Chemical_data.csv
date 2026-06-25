@@ -1,0 +1,722 @@
+"site_id","monitoring_id","group","parameter","unit","value","notes"
+1,"1_0","Chemical","Temperature","Degree C",26,NA
+1,"1_0","Chemical","DO_mgl","mg/l",11.89,NA
+1,"1_0","Chemical","DO_percent","%",146.5,NA
+1,"1_0","Chemical","Conductivity","µS/cm",159.5,NA
+1,"1_0","Chemical","Specific_conductivity","µS/cm",156.219392752204,NA
+1,"1_0","Chemical","pH",NA,8.12,NA
+2,"2_0","Chemical","Temperature","Degree C",25.8,NA
+2,"2_0","Chemical","DO_mgl","mg/l",11.54,NA
+2,"2_0","Chemical","DO_percent","%",141.7,NA
+2,"2_0","Chemical","Conductivity","µS/cm",159.1,NA
+2,"2_0","Chemical","Specific_conductivity","µS/cm",156.47128245476,NA
+2,"2_0","Chemical","pH",NA,9.08,NA
+3,"3_0","Chemical","Temperature","Degree C",25.2,NA
+3,"3_0","Chemical","DO_mgl","mg/l",10.87,NA
+3,"3_0","Chemical","DO_percent","%",132.2,NA
+3,"3_0","Chemical","Conductivity","µS/cm",170.8,NA
+3,"3_0","Chemical","Specific_conductivity","µS/cm",170.085640310695,NA
+3,"3_0","Chemical","pH",NA,8.82,NA
+4,"4_0","Chemical","Temperature","Degree C",25.6,NA
+4,"4_0","Chemical","DO_mgl","mg/l",10.24,NA
+4,"4_0","Chemical","DO_percent","%",125.4,NA
+4,"4_0","Chemical","Conductivity","µS/cm",170.9,NA
+4,"4_0","Chemical","Specific_conductivity","µS/cm",168.773454473632,NA
+4,"4_0","Chemical","pH",NA,8.51,NA
+5,"5_0","Chemical","Temperature","Degree C",24.2,NA
+5,"5_0","Chemical","DO_mgl","mg/l",9.25,NA
+5,"5_0","Chemical","DO_percent","%",110.4,NA
+5,"5_0","Chemical","Conductivity","µS/cm",172,NA
+5,"5_0","Chemical","Specific_conductivity","µS/cm",174.938974776241,NA
+5,"5_0","Chemical","pH",NA,8.12,NA
+6,"6_0","Chemical","Temperature","Degree C",24.1,NA
+6,"6_0","Chemical","DO_mgl","mg/l",8.65,NA
+6,"6_0","Chemical","DO_percent","%",103,NA
+6,"6_0","Chemical","Conductivity","µS/cm",172.1,NA
+6,"6_0","Chemical","Specific_conductivity","µS/cm",175.415350117215,NA
+6,"6_0","Chemical","pH",NA,8.11,NA
+7,"7_0","Chemical","Temperature","Degree C",26.6,NA
+7,"7_0","Chemical","DO_mgl","mg/l",8.37,NA
+7,"7_0","Chemical","DO_percent","%",103.9,NA
+7,"7_0","Chemical","Conductivity","µS/cm",330.6,NA
+7,"7_0","Chemical","Specific_conductivity","µS/cm",319.852941176471,NA
+7,"7_0","Chemical","pH",NA,3.69,NA
+8,"8_0","Chemical","Temperature","Degree C",25.9,NA
+8,"8_0","Chemical","DO_mgl","mg/l",8.38,NA
+8,"8_0","Chemical","DO_percent","%",103.3,NA
+8,"8_0","Chemical","Conductivity","µS/cm",346,NA
+8,"8_0","Chemical","Specific_conductivity","µS/cm",339.581902051232,NA
+8,"8_0","Chemical","pH",NA,3.72,NA
+8,"8_0","Chemical","pH1",NA,7.42,NA
+9,"9_0","Chemical","Temperature","Degree C",21.7,NA
+9,"9_0","Chemical","DO_mgl","mg/l",8.87,NA
+9,"9_0","Chemical","DO_percent","%",101,NA
+9,"9_0","Chemical","Conductivity","µS/cm",145.3,NA
+9,"9_0","Chemical","Specific_conductivity","µS/cm",156.119050177286,NA
+9,"9_0","Chemical","pH",NA,8.74,NA
+10,"10_0","Chemical","Temperature","Degree C",22.5,NA
+10,"10_0","Chemical","DO_mgl","mg/l",9.34,NA
+10,"10_0","Chemical","DO_percent","%",107.9,NA
+10,"10_0","Chemical","Conductivity","µS/cm",150.4,NA
+10,"10_0","Chemical","Specific_conductivity","µS/cm",158.733509234828,NA
+10,"10_0","Chemical","pH",NA,8.65,NA
+11,"11_0","Chemical","Temperature","Degree C",24.4,NA
+11,"11_0","Chemical","DO_mgl","mg/l",11.18,NA
+11,"11_0","Chemical","DO_percent","%",133.9,NA
+11,"11_0","Chemical","Conductivity","µS/cm",156.9,NA
+11,"11_0","Chemical","Specific_conductivity","µS/cm",158.902167308082,NA
+11,"11_0","Chemical","pH",NA,9.18,NA
+12,"12_0","Chemical","Temperature","Degree C",25.4,NA
+12,"12_0","Chemical","DO_mgl","mg/l",10.88,NA
+12,"12_0","Chemical","DO_percent","%",136.4,NA
+12,"12_0","Chemical","Conductivity","µS/cm",161.1,NA
+12,"12_0","Chemical","Specific_conductivity","µS/cm",159.758032526775,NA
+12,"12_0","Chemical","pH",NA,9.14,NA
+13,"13_0","Chemical","Temperature","Degree C",24.3,NA
+13,"13_0","Chemical","DO_mgl","mg/l",9.39,NA
+13,"13_0","Chemical","DO_percent","%",112.1,NA
+13,"13_0","Chemical","Conductivity","µS/cm",177.9,NA
+13,"13_0","Chemical","Specific_conductivity","µS/cm",180.554145945397,NA
+13,"13_0","Chemical","pH",NA,7.57,NA
+14,"14_0","Chemical","Temperature","Degree C",24.3,NA
+14,"14_0","Chemical","DO_mgl","mg/l",9.39,NA
+14,"14_0","Chemical","DO_percent","%",112.1,NA
+14,"14_0","Chemical","Conductivity","µS/cm",177.9,NA
+14,"14_0","Chemical","Specific_conductivity","µS/cm",180.554145945397,NA
+14,"14_0","Chemical","pH",NA,7.52,NA
+15,"15_0","Chemical","Temperature","Degree C",23.2,NA
+15,"15_0","Chemical","DO_mgl","mg/l",8.99,NA
+15,"15_0","Chemical","DO_percent","%",105.3,NA
+15,"15_0","Chemical","Conductivity","µS/cm",160.9,NA
+15,"15_0","Chemical","Specific_conductivity","µS/cm",167.220951985034,NA
+15,"15_0","Chemical","pH",NA,8.23,NA
+16,"16_0","Chemical","Temperature","Degree C",23.4,NA
+16,"16_0","Chemical","DO_mgl","mg/l",9.08,NA
+16,"16_0","Chemical","DO_percent","%",106.7,NA
+16,"16_0","Chemical","Conductivity","µS/cm",160.5,NA
+16,"16_0","Chemical","Specific_conductivity","µS/cm",166.080298013245,NA
+16,"16_0","Chemical","pH",NA,8.1,NA
+17,"17_0","Chemical","Temperature","Degree C",25.3,NA
+17,"17_0","Chemical","DO_mgl","mg/l",9.66,NA
+17,"17_0","Chemical","DO_percent","%",116.8,NA
+17,"17_0","Chemical","Conductivity","µS/cm",159.8,NA
+17,"17_0","Chemical","Specific_conductivity","µS/cm",158.799562754646,NA
+17,"17_0","Chemical","pH",NA,8.52,NA
+18,"18_0","Chemical","Temperature","Degree C",25.4,NA
+18,"18_0","Chemical","DO_mgl","mg/l",9.86,NA
+18,"18_0","Chemical","DO_percent","%",120.1,NA
+18,"18_0","Chemical","Conductivity","µS/cm",161.2,NA
+18,"18_0","Chemical","Specific_conductivity","µS/cm",159.857199523998,NA
+18,"18_0","Chemical","pH",NA,8.67,NA
+19,"19_0","Chemical","Temperature","Degree C",24.2,NA
+19,"19_0","Chemical","DO_mgl","mg/l",10.95,NA
+19,"19_0","Chemical","DO_percent","%",132,NA
+19,"19_0","Chemical","Conductivity","µS/cm",160.5,NA
+19,"19_0","Chemical","Specific_conductivity","µS/cm",163.242473555736,NA
+19,"19_0","Chemical","pH",NA,9.34,NA
+20,"20_0","Chemical","Temperature","Degree C",24.9,NA
+20,"20_0","Chemical","DO_mgl","mg/l",10.9,NA
+20,"20_0","Chemical","DO_percent","%",131.4,NA
+20,"20_0","Chemical","Conductivity","µS/cm",159.2,NA
+20,"20_0","Chemical","Specific_conductivity","µS/cm",159.535023549454,NA
+20,"20_0","Chemical","pH",NA,9.07,NA
+1,"1_1","Chemical","Temperature","Degree C",17.9,NA
+1,"1_1","Chemical","DO_mgl","mg/l",10.18,NA
+1,"1_1","Chemical","DO_percent","%",107.2,NA
+1,"1_1","Chemical","Conductivity","µS/cm",129,NA
+1,"1_1","Chemical","Specific_conductivity","µS/cm",151.604183805383,NA
+1,"1_1","Chemical","pH",NA,7.42,NA
+2,"2_1","Chemical","Temperature","Degree C",17.6,NA
+2,"2_1","Chemical","DO_mgl","mg/l",10.01,NA
+2,"2_1","Chemical","DO_percent","%",104.8,NA
+2,"2_1","Chemical","Conductivity","µS/cm",128.5,NA
+2,"2_1","Chemical","Specific_conductivity","µS/cm",152.143026284632,NA
+2,"2_1","Chemical","pH",NA,7.36,NA
+3,"3_1","Chemical","Temperature","Degree C",17.9,NA
+3,"3_1","Chemical","DO_mgl","mg/l",10.36,NA
+3,"3_1","Chemical","DO_percent","%",109.3,NA
+3,"3_1","Chemical","Conductivity","µS/cm",142,NA
+3,"3_1","Chemical","Specific_conductivity","µS/cm",166.882124809026,NA
+3,"3_1","Chemical","pH",NA,7.49,NA
+4,"4_1","Chemical","Temperature","Degree C",17.8,NA
+4,"4_1","Chemical","DO_mgl","mg/l",10.2,NA
+4,"4_1","Chemical","DO_percent","%",107.7,NA
+4,"4_1","Chemical","Conductivity","µS/cm",142.7,NA
+4,"4_1","Chemical","Specific_conductivity","µS/cm",168.119698397738,NA
+4,"4_1","Chemical","pH",NA,7.54,NA
+5,"5_1","Chemical","Temperature","Degree C",16.9,NA
+5,"5_1","Chemical","DO_mgl","mg/l",8.26,NA
+5,"5_1","Chemical","DO_percent","%",85.3,NA
+5,"5_1","Chemical","Conductivity","µS/cm",139,NA
+5,"5_1","Chemical","Specific_conductivity","µS/cm",167.490059043258,NA
+5,"5_1","Chemical","pH",NA,6.82,NA
+6,"6_1","Chemical","Temperature","Degree C",15.9,NA
+6,"6_1","Chemical","DO_mgl","mg/l",3.21,NA
+6,"6_1","Chemical","DO_percent","%",32.2,NA
+6,"6_1","Chemical","Conductivity","µS/cm",36.6,NA
+6,"6_1","Chemical","Specific_conductivity","µS/cm",45.246631227593,NA
+6,"6_1","Chemical","pH",NA,6.5,NA
+7,"7_1","Chemical","Temperature","Degree C",17.9,NA
+7,"7_1","Chemical","DO_mgl","mg/l",9.68,NA
+7,"7_1","Chemical","DO_percent","%",102.2,NA
+7,"7_1","Chemical","Conductivity","µS/cm",139.2,NA
+7,"7_1","Chemical","Specific_conductivity","µS/cm",163.591491362087,NA
+7,"7_1","Chemical","pH",NA,7.38,NA
+8,"8_1","Chemical","Temperature","Degree C",17.9,NA
+8,"8_1","Chemical","DO_mgl","mg/l",9.59,NA
+8,"8_1","Chemical","DO_percent","%",101.2,NA
+8,"8_1","Chemical","Conductivity","µS/cm",138.9,NA
+8,"8_1","Chemical","Specific_conductivity","µS/cm",163.238923492772,NA
+8,"8_1","Chemical","pH",NA,7.45,NA
+9,"9_1","Chemical","Temperature","Degree C",17.7,NA
+9,"9_1","Chemical","DO_mgl","mg/l",8.84,NA
+9,"9_1","Chemical","DO_percent","%",92.8,NA
+9,"9_1","Chemical","Conductivity","µS/cm",132.4,NA
+9,"9_1","Chemical","Specific_conductivity","µS/cm",156.371796385969,NA
+9,"9_1","Chemical","pH",NA,7.24,NA
+10,"10_1","Chemical","Temperature","Degree C",17.9,NA
+10,"10_1","Chemical","DO_mgl","mg/l",9.19,NA
+10,"10_1","Chemical","DO_percent","%",97,NA
+10,"10_1","Chemical","Conductivity","µS/cm",133.4,NA
+10,"10_1","Chemical","Specific_conductivity","µS/cm",156.775179222,NA
+10,"10_1","Chemical","pH",NA,7.46,NA
+11,"11_1","Chemical","Temperature","Degree C",17.3,NA
+11,"11_1","Chemical","DO_mgl","mg/l",9.8,NA
+11,"11_1","Chemical","DO_percent","%",102.2,NA
+11,"11_1","Chemical","Conductivity","µS/cm",130,NA
+11,"11_1","Chemical","Specific_conductivity","µS/cm",152.3,NA
+11,"11_1","Chemical","pH",NA,7.76,NA
+12,"12_1","Chemical","Temperature","Degree C",17.3,NA
+12,"12_1","Chemical","DO_mgl","mg/l",9.8,NA
+12,"12_1","Chemical","DO_percent","%",102.2,NA
+12,"12_1","Chemical","Conductivity","µS/cm",130,NA
+12,"12_1","Chemical","Specific_conductivity","µS/cm",152.3,NA
+12,"12_1","Chemical","pH",NA,7.76,NA
+13,"13_1","Chemical","Temperature","Degree C",17.2,NA
+13,"13_1","Chemical","DO_mgl","mg/l",9.78,NA
+13,"13_1","Chemical","DO_percent","%",101.6,NA
+13,"13_1","Chemical","Conductivity","µS/cm",130.9,NA
+13,"13_1","Chemical","Specific_conductivity","µS/cm",153.9,NA
+13,"13_1","Chemical","pH",NA,7.94,NA
+14,"14_1","Chemical","Temperature","Degree C",17.2,NA
+14,"14_1","Chemical","DO_mgl","mg/l",9.78,NA
+14,"14_1","Chemical","DO_percent","%",101.6,NA
+14,"14_1","Chemical","Conductivity","µS/cm",130.9,NA
+14,"14_1","Chemical","Specific_conductivity","µS/cm",153.9,NA
+14,"14_1","Chemical","pH",NA,7.94,NA
+15,"15_1","Chemical","Temperature","Degree C",17.4,NA
+15,"15_1","Chemical","DO_mgl","mg/l",9.31,NA
+15,"15_1","Chemical","DO_percent","%",97.1,NA
+15,"15_1","Chemical","Conductivity","µS/cm",138.3,NA
+15,"15_1","Chemical","Specific_conductivity","µS/cm",161.8,NA
+15,"15_1","Chemical","pH",NA,8.46,NA
+16,"16_1","Chemical","Temperature","Degree C",17.4,NA
+16,"16_1","Chemical","DO_mgl","mg/l",9.45,NA
+16,"16_1","Chemical","DO_percent","%",98.5,NA
+16,"16_1","Chemical","Conductivity","µS/cm",138.3,NA
+16,"16_1","Chemical","Specific_conductivity","µS/cm",161.9,NA
+16,"16_1","Chemical","pH",NA,7.6,NA
+17,"17_1","Chemical","Temperature","Degree C",17.4,NA
+17,"17_1","Chemical","DO_mgl","mg/l",9.63,NA
+17,"17_1","Chemical","DO_percent","%",100.5,NA
+17,"17_1","Chemical","Conductivity","µS/cm",131.7,NA
+17,"17_1","Chemical","Specific_conductivity","µS/cm",154.2,NA
+17,"17_1","Chemical","pH",NA,7.48,NA
+18,"18_1","Chemical","Temperature","Degree C",17.4,NA
+18,"18_1","Chemical","DO_mgl","mg/l",9.63,NA
+18,"18_1","Chemical","DO_percent","%",100.5,NA
+18,"18_1","Chemical","Conductivity","µS/cm",131.7,NA
+18,"18_1","Chemical","Specific_conductivity","µS/cm",154.2,NA
+18,"18_1","Chemical","pH",NA,7.48,NA
+19,"19_1","Chemical","Temperature","Degree C",17.3,NA
+19,"19_1","Chemical","DO_mgl","mg/l",9.8,NA
+19,"19_1","Chemical","DO_percent","%",102.2,NA
+19,"19_1","Chemical","Conductivity","µS/cm",130,NA
+19,"19_1","Chemical","Specific_conductivity","µS/cm",152.3,NA
+19,"19_1","Chemical","pH",NA,7.76,NA
+20,"20_1","Chemical","Temperature","Degree C",17.3,NA
+20,"20_1","Chemical","DO_mgl","mg/l",9.8,NA
+20,"20_1","Chemical","DO_percent","%",102.2,NA
+20,"20_1","Chemical","Conductivity","µS/cm",130,NA
+20,"20_1","Chemical","Specific_conductivity","µS/cm",152.3,NA
+20,"20_1","Chemical","pH",NA,7.76,NA
+1,"1_2","Chemical","Temperature","Degree C",12.8,NA
+1,"1_2","Chemical","DO_mgl","mg/l",11.12,NA
+1,"1_2","Chemical","DO_percent","%",105.2,NA
+1,"1_2","Chemical","Conductivity","µS/cm",112.6,NA
+1,"1_2","Chemical","Specific_conductivity","µS/cm",146.7,NA
+1,"1_2","Chemical","pH",NA,7.22,NA
+2,"2_2","Chemical","Temperature","Degree C",12.9,NA
+2,"2_2","Chemical","DO_mgl","mg/l",10.92,NA
+2,"2_2","Chemical","DO_percent","%",103.5,NA
+2,"2_2","Chemical","Conductivity","µS/cm",112,NA
+2,"2_2","Chemical","Specific_conductivity","µS/cm",145.6,NA
+2,"2_2","Chemical","pH",NA,6.66,NA
+3,"3_2","Chemical","Temperature","Degree C",13,NA
+3,"3_2","Chemical","DO_mgl","mg/l",10.95,NA
+3,"3_2","Chemical","DO_percent","%",103.9,NA
+3,"3_2","Chemical","Conductivity","µS/cm",120.7,NA
+3,"3_2","Chemical","Specific_conductivity","µS/cm",156.8,NA
+3,"3_2","Chemical","pH",NA,7.53,NA
+4,"4_2","Chemical","Temperature","Degree C",13,NA
+4,"4_2","Chemical","DO_mgl","mg/l",10.89,NA
+4,"4_2","Chemical","DO_percent","%",103.3,NA
+4,"4_2","Chemical","Conductivity","µS/cm",123.1,NA
+4,"4_2","Chemical","Specific_conductivity","µS/cm",159.9,NA
+4,"4_2","Chemical","pH",NA,7.66,NA
+5,"5_2","Chemical","Temperature","Degree C",11.2,NA
+5,"5_2","Chemical","DO_mgl","mg/l",10.77,NA
+5,"5_2","Chemical","DO_percent","%",98.2,NA
+5,"5_2","Chemical","Conductivity","µS/cm",117.1,NA
+5,"5_2","Chemical","Specific_conductivity","µS/cm",158.8,NA
+5,"5_2","Chemical","pH",NA,7.94,NA
+6,"6_2","Chemical","Temperature","Degree C",11.2,NA
+6,"6_2","Chemical","DO_mgl","mg/l",10.46,NA
+6,"6_2","Chemical","DO_percent","%",95.3,NA
+6,"6_2","Chemical","Conductivity","µS/cm",117.5,NA
+6,"6_2","Chemical","Specific_conductivity","µS/cm",159.7,NA
+6,"6_2","Chemical","pH",NA,8.15,NA
+7,"7_2","Chemical","Temperature","Degree C",13,NA
+7,"7_2","Chemical","DO_mgl","mg/l",11.45,NA
+7,"7_2","Chemical","DO_percent","%",108.6,NA
+7,"7_2","Chemical","Conductivity","µS/cm",121.1,NA
+7,"7_2","Chemical","Specific_conductivity","µS/cm",157.1,NA
+7,"7_2","Chemical","pH",NA,5.88,NA
+8,"8_2","Chemical","Temperature","Degree C",14.6,NA
+8,"8_2","Chemical","DO_mgl","mg/l",10.32,NA
+8,"8_2","Chemical","DO_percent","%",101.4,NA
+8,"8_2","Chemical","Conductivity","µS/cm",224.1,NA
+8,"8_2","Chemical","Specific_conductivity","µS/cm",280,NA
+8,"8_2","Chemical","pH",NA,3.85,NA
+9,"9_2","Chemical","Temperature","Degree C",11.9,NA
+9,"9_2","Chemical","DO_mgl","mg/l",9.69,NA
+9,"9_2","Chemical","DO_percent","%",89.8,NA
+9,"9_2","Chemical","Conductivity","µS/cm",109.7,NA
+9,"9_2","Chemical","Specific_conductivity","µS/cm",146.2,NA
+9,"9_2","Chemical","pH",NA,8.22,NA
+10,"10_2","Chemical","Temperature","Degree C",11.9,NA
+10,"10_2","Chemical","DO_mgl","mg/l",9.95,NA
+10,"10_2","Chemical","DO_percent","%",92.1,NA
+10,"10_2","Chemical","Conductivity","µS/cm",113.3,NA
+10,"10_2","Chemical","Specific_conductivity","µS/cm",151.3,NA
+10,"10_2","Chemical","pH",NA,7.99,NA
+11,"11_2","Chemical","Temperature","Degree C",12.1,NA
+11,"11_2","Chemical","DO_mgl","mg/l",10.24,NA
+11,"11_2","Chemical","DO_percent","%",95.4,NA
+11,"11_2","Chemical","Conductivity","µS/cm",114.4,NA
+11,"11_2","Chemical","Specific_conductivity","µS/cm",151.7,NA
+11,"11_2","Chemical","pH",NA,6.52,NA
+12,"12_2","Chemical","Temperature","Degree C",12.1,NA
+12,"12_2","Chemical","DO_mgl","mg/l",10.24,NA
+12,"12_2","Chemical","DO_percent","%",95.4,NA
+12,"12_2","Chemical","Conductivity","µS/cm",114.4,NA
+12,"12_2","Chemical","Specific_conductivity","µS/cm",151.7,NA
+12,"12_2","Chemical","pH",NA,6.52,NA
+13,"13_2","Chemical","Temperature","Degree C",11.9,NA
+13,"13_2","Chemical","DO_mgl","mg/l",10.42,NA
+13,"13_2","Chemical","DO_percent","%",96.4,NA
+13,"13_2","Chemical","Conductivity","µS/cm",126.2,NA
+13,"13_2","Chemical","Specific_conductivity","µS/cm",168.5,NA
+13,"13_2","Chemical","pH",NA,6.45,NA
+14,"14_2","Chemical","Temperature","Degree C",11.9,NA
+14,"14_2","Chemical","DO_mgl","mg/l",10.42,NA
+14,"14_2","Chemical","DO_percent","%",96.4,NA
+14,"14_2","Chemical","Conductivity","µS/cm",126.2,NA
+14,"14_2","Chemical","Specific_conductivity","µS/cm",168.5,NA
+14,"14_2","Chemical","pH",NA,6.45,NA
+15,"15_2","Chemical","Temperature","Degree C",11.6,NA
+15,"15_2","Chemical","DO_mgl","mg/l",10.2,NA
+15,"15_2","Chemical","DO_percent","%",93.9,NA
+15,"15_2","Chemical","Conductivity","µS/cm",114.9,NA
+15,"15_2","Chemical","Specific_conductivity","µS/cm",154.3,NA
+15,"15_2","Chemical","pH",NA,7.12,NA
+16,"16_2","Chemical","Temperature","Degree C",11.8,NA
+16,"16_2","Chemical","DO_mgl","mg/l",10.26,NA
+16,"16_2","Chemical","DO_percent","%",94.8,NA
+16,"16_2","Chemical","Conductivity","µS/cm",115.7,NA
+16,"16_2","Chemical","Specific_conductivity","µS/cm",154.8,NA
+16,"16_2","Chemical","pH",NA,7.64,NA
+17,"17_2","Chemical","Temperature","Degree C",12.3,NA
+17,"17_2","Chemical","DO_mgl","mg/l",10.02,NA
+17,"17_2","Chemical","DO_percent","%",98.6,NA
+17,"17_2","Chemical","Conductivity","µS/cm",115.3,NA
+17,"17_2","Chemical","Specific_conductivity","µS/cm",152.3,NA
+17,"17_2","Chemical","pH",NA,6.39,NA
+18,"18_2","Chemical","Temperature","Degree C",12.3,NA
+18,"18_2","Chemical","DO_mgl","mg/l",10.02,NA
+18,"18_2","Chemical","DO_percent","%",98.6,NA
+18,"18_2","Chemical","Conductivity","µS/cm",115.3,NA
+18,"18_2","Chemical","Specific_conductivity","µS/cm",152.3,NA
+18,"18_2","Chemical","pH",NA,6.39,NA
+19,"19_2","Chemical","Temperature","Degree C",12.2,NA
+19,"19_2","Chemical","DO_mgl","mg/l",9.93,NA
+19,"19_2","Chemical","DO_percent","%",92.6,NA
+19,"19_2","Chemical","Conductivity","µS/cm",116.3,NA
+19,"19_2","Chemical","Specific_conductivity","µS/cm",153.8,NA
+19,"19_2","Chemical","pH",NA,6.59,NA
+20,"20_2","Chemical","Temperature","Degree C",12.2,NA
+20,"20_2","Chemical","DO_mgl","mg/l",9.93,NA
+20,"20_2","Chemical","DO_percent","%",92.6,NA
+20,"20_2","Chemical","Conductivity","µS/cm",116.3,NA
+20,"20_2","Chemical","Specific_conductivity","µS/cm",153.8,NA
+20,"20_2","Chemical","pH",NA,6.59,NA
+1,"1_3","Chemical","Temperature","Degree C",15.7,NA
+1,"1_3","Chemical","DO_mgl","mg/l",10.66,NA
+1,"1_3","Chemical","DO_percent","%",107.3,NA
+1,"1_3","Chemical","Conductivity","µS/cm",116.9,NA
+1,"1_3","Chemical","Specific_conductivity","µS/cm",142.2,NA
+1,"1_3","Chemical","pH",NA,6.5,NA
+2,"2_3","Chemical","Temperature","Degree C",15.6,NA
+2,"2_3","Chemical","DO_mgl","mg/l",11.21,NA
+2,"2_3","Chemical","DO_percent","%",112.6,NA
+2,"2_3","Chemical","Conductivity","µS/cm",118,NA
+2,"2_3","Chemical","Specific_conductivity","µS/cm",143.9,NA
+2,"2_3","Chemical","pH",NA,7.7,NA
+3,"3_3","Chemical","Temperature","Degree C",15.6,NA
+3,"3_3","Chemical","DO_mgl","mg/l",10.37,NA
+3,"3_3","Chemical","DO_percent","%",104.3,NA
+3,"3_3","Chemical","Conductivity","µS/cm",128,NA
+3,"3_3","Chemical","Specific_conductivity","µS/cm",155.9,NA
+3,"3_3","Chemical","pH",NA,7.45,NA
+4,"4_3","Chemical","Temperature","Degree C",15.7,NA
+4,"4_3","Chemical","DO_mgl","mg/l",10.33,NA
+4,"4_3","Chemical","DO_percent","%",103.9,NA
+4,"4_3","Chemical","Conductivity","µS/cm",129.2,NA
+4,"4_3","Chemical","Specific_conductivity","µS/cm",157.3,NA
+4,"4_3","Chemical","pH",NA,7.61,NA
+5,"5_3","Chemical","Temperature","Degree C",16.4,NA
+5,"5_3","Chemical","DO_mgl","mg/l",9.97,NA
+5,"5_3","Chemical","DO_percent","%",102,NA
+5,"5_3","Chemical","Conductivity","µS/cm",142.6,NA
+5,"5_3","Chemical","Specific_conductivity","µS/cm",170.6,NA
+5,"5_3","Chemical","pH",NA,7.48,NA
+6,"6_3","Chemical","Temperature","Degree C",16.2,NA
+6,"6_3","Chemical","DO_mgl","mg/l",9.6,NA
+6,"6_3","Chemical","DO_percent","%",97.7,NA
+6,"6_3","Chemical","Conductivity","µS/cm",143.6,NA
+6,"6_3","Chemical","Specific_conductivity","µS/cm",172.6,NA
+6,"6_3","Chemical","pH",NA,7.93,NA
+7,"7_3","Chemical","Temperature","Degree C",17.3,NA
+7,"7_3","Chemical","DO_mgl","mg/l",10.26,NA
+7,"7_3","Chemical","DO_percent","%",106.8,NA
+7,"7_3","Chemical","Conductivity","µS/cm",168.3,NA
+7,"7_3","Chemical","Specific_conductivity","µS/cm",197.5,NA
+7,"7_3","Chemical","pH",NA,4.97,NA
+8,"8_3","Chemical","Temperature","Degree C",16.7,NA
+8,"8_3","Chemical","DO_mgl","mg/l",10.31,NA
+8,"8_3","Chemical","DO_percent","%",106.1,NA
+8,"8_3","Chemical","Conductivity","µS/cm",162.9,NA
+8,"8_3","Chemical","Specific_conductivity","µS/cm",193.4,NA
+8,"8_3","Chemical","pH",NA,6.16,NA
+9,"9_3","Chemical","Temperature","Degree C",14.8,NA
+9,"9_3","Chemical","DO_mgl","mg/l",10.25,NA
+9,"9_3","Chemical","DO_percent","%",101.3,NA
+9,"9_3","Chemical","Conductivity","µS/cm",121.2,NA
+9,"9_3","Chemical","Specific_conductivity","µS/cm",150.4,NA
+9,"9_3","Chemical","pH",NA,8.24,NA
+10,"10_3","Chemical","Temperature","Degree C",14.8,NA
+10,"10_3","Chemical","DO_mgl","mg/l",10.25,NA
+10,"10_3","Chemical","DO_percent","%",101.3,NA
+10,"10_3","Chemical","Conductivity","µS/cm",121.2,NA
+10,"10_3","Chemical","Specific_conductivity","µS/cm",150.4,NA
+10,"10_3","Chemical","pH",NA,8.24,NA
+11,"11_3","Chemical","Temperature","Degree C",20.3,NA
+11,"11_3","Chemical","DO_mgl","mg/l",9.99,NA
+11,"11_3","Chemical","DO_percent","%",110.5,NA
+11,"11_3","Chemical","Conductivity","µS/cm",139.5,NA
+11,"11_3","Chemical","Specific_conductivity","µS/cm",153.4,NA
+11,"11_3","Chemical","pH",NA,8.35,NA
+12,"12_3","Chemical","Temperature","Degree C",20.3,NA
+12,"12_3","Chemical","DO_mgl","mg/l",9.99,NA
+12,"12_3","Chemical","DO_percent","%",110.5,NA
+12,"12_3","Chemical","Conductivity","µS/cm",139.5,NA
+12,"12_3","Chemical","Specific_conductivity","µS/cm",153.4,NA
+12,"12_3","Chemical","pH",NA,8.35,NA
+13,"13_3","Chemical","Temperature","Degree C",20.6,NA
+13,"13_3","Chemical","DO_mgl","mg/l",10.37,NA
+13,"13_3","Chemical","DO_percent","%",115.4,NA
+13,"13_3","Chemical","Conductivity","µS/cm",148,NA
+13,"13_3","Chemical","Specific_conductivity","µS/cm",161.6,NA
+13,"13_3","Chemical","pH",NA,8.58,NA
+14,"14_3","Chemical","Temperature","Degree C",20.6,NA
+14,"14_3","Chemical","DO_mgl","mg/l",10.37,NA
+14,"14_3","Chemical","DO_percent","%",115.4,NA
+14,"14_3","Chemical","Conductivity","µS/cm",148,NA
+14,"14_3","Chemical","Specific_conductivity","µS/cm",161.6,NA
+14,"14_3","Chemical","pH",NA,8.58,NA
+15,"15_3","Chemical","Temperature","Degree C",20.6,NA
+15,"15_3","Chemical","DO_mgl","mg/l",9.85,NA
+15,"15_3","Chemical","DO_percent","%",109.7,NA
+15,"15_3","Chemical","Conductivity","µS/cm",95.3,NA
+15,"15_3","Chemical","Specific_conductivity","µS/cm",104,NA
+15,"15_3","Chemical","pH",NA,8.17,NA
+16,"16_3","Chemical","Temperature","Degree C",20.6,NA
+16,"16_3","Chemical","DO_mgl","mg/l",9.85,NA
+16,"16_3","Chemical","DO_percent","%",109.7,NA
+16,"16_3","Chemical","Conductivity","µS/cm",95.3,NA
+16,"16_3","Chemical","Specific_conductivity","µS/cm",104,NA
+16,"16_3","Chemical","pH",NA,8.17,NA
+17,"17_3","Chemical","Temperature","Degree C",19.4,NA
+17,"17_3","Chemical","DO_mgl","mg/l",10.31,NA
+17,"17_3","Chemical","DO_percent","%",112.1,NA
+17,"17_3","Chemical","Conductivity","µS/cm",137.8,NA
+17,"17_3","Chemical","Specific_conductivity","µS/cm",154.3,NA
+17,"17_3","Chemical","pH",NA,8.09,NA
+18,"18_3","Chemical","Temperature","Degree C",19.4,NA
+18,"18_3","Chemical","DO_mgl","mg/l",10.31,NA
+18,"18_3","Chemical","DO_percent","%",112.1,NA
+18,"18_3","Chemical","Conductivity","µS/cm",137.8,NA
+18,"18_3","Chemical","Specific_conductivity","µS/cm",154.3,NA
+18,"18_3","Chemical","pH",NA,8.09,NA
+19,"19_3","Chemical","Temperature","Degree C",19.3,NA
+19,"19_3","Chemical","DO_mgl","mg/l",9.96,NA
+19,"19_3","Chemical","DO_percent","%",108.1,NA
+19,"19_3","Chemical","Conductivity","µS/cm",136.1,NA
+19,"19_3","Chemical","Specific_conductivity","µS/cm",152.6,NA
+19,"19_3","Chemical","pH",NA,8.2,NA
+20,"20_3","Chemical","Temperature","Degree C",19.3,NA
+20,"20_3","Chemical","DO_mgl","mg/l",9.96,NA
+20,"20_3","Chemical","DO_percent","%",108.1,NA
+20,"20_3","Chemical","Conductivity","µS/cm",136.1,NA
+20,"20_3","Chemical","Specific_conductivity","µS/cm",152.6,NA
+20,"20_3","Chemical","pH",NA,8.2,NA
+1,"1_4","Chemical","Temperature","Degree C",22.4,NA
+1,"1_4","Chemical","DO_mgl","mg/l",9.03,NA
+1,"1_4","Chemical","DO_percent","%",104.1,NA
+1,"1_4","Chemical","Conductivity","µS/cm",142.8,NA
+1,"1_4","Chemical","Specific_conductivity","µS/cm",150.2,NA
+1,"1_4","Chemical","pH",NA,8.11,NA
+2,"2_4","Chemical","Temperature","Degree C",22.4,NA
+2,"2_4","Chemical","DO_mgl","mg/l",9.03,NA
+2,"2_4","Chemical","DO_percent","%",104.1,NA
+2,"2_4","Chemical","Conductivity","µS/cm",142.8,NA
+2,"2_4","Chemical","Specific_conductivity","µS/cm",150.2,NA
+2,"2_4","Chemical","pH",NA,8.11,NA
+3,"3_4","Chemical","Temperature","Degree C",21.4,NA
+3,"3_4","Chemical","DO_mgl","mg/l",9.5,NA
+3,"3_4","Chemical","DO_percent","%",107.5,NA
+3,"3_4","Chemical","Conductivity","µS/cm",147.7,NA
+3,"3_4","Chemical","Specific_conductivity","µS/cm",158.4,NA
+3,"3_4","Chemical","pH",NA,8.07,NA
+4,"4_4","Chemical","Temperature","Degree C",21.4,NA
+4,"4_4","Chemical","DO_mgl","mg/l",9.5,NA
+4,"4_4","Chemical","DO_percent","%",107.5,NA
+4,"4_4","Chemical","Conductivity","µS/cm",147.7,NA
+4,"4_4","Chemical","Specific_conductivity","µS/cm",158.4,NA
+4,"4_4","Chemical","pH",NA,8.07,NA
+5,"5_4","Chemical","Temperature","Degree C",22.8,NA
+5,"5_4","Chemical","DO_mgl","mg/l",5.75,NA
+5,"5_4","Chemical","DO_percent","%",66.8,NA
+5,"5_4","Chemical","Conductivity","µS/cm",171.6,NA
+5,"5_4","Chemical","Specific_conductivity","µS/cm",179.2,NA
+5,"5_4","Chemical","pH",NA,7.86,NA
+6,"6_4","Chemical","Temperature","Degree C",22.8,NA
+6,"6_4","Chemical","DO_mgl","mg/l",5.75,NA
+6,"6_4","Chemical","DO_percent","%",66.8,NA
+6,"6_4","Chemical","Conductivity","µS/cm",171.6,NA
+6,"6_4","Chemical","Specific_conductivity","µS/cm",179.2,NA
+6,"6_4","Chemical","pH",NA,7.86,NA
+7,"7_4","Chemical","Temperature","Degree C",22.1,NA
+7,"7_4","Chemical","DO_mgl","mg/l",9.39,NA
+7,"7_4","Chemical","DO_percent","%",107.6,NA
+7,"7_4","Chemical","Conductivity","µS/cm",149.4,NA
+7,"7_4","Chemical","Specific_conductivity","µS/cm",158,NA
+7,"7_4","Chemical","pH",NA,7.66,NA
+8,"8_4","Chemical","Temperature","Degree C",21.8,NA
+8,"8_4","Chemical","DO_mgl","mg/l",9.37,NA
+8,"8_4","Chemical","DO_percent","%",106.8,NA
+8,"8_4","Chemical","Conductivity","µS/cm",150,NA
+8,"8_4","Chemical","Specific_conductivity","µS/cm",159.8,NA
+8,"8_4","Chemical","pH",NA,8.09,NA
+9,"9_4","Chemical","Temperature","Degree C",22.1,NA
+9,"9_4","Chemical","DO_mgl","mg/l",9.42,NA
+9,"9_4","Chemical","DO_percent","%",108,NA
+9,"9_4","Chemical","Conductivity","µS/cm",144.3,NA
+9,"9_4","Chemical","Specific_conductivity","µS/cm",152.8,NA
+9,"9_4","Chemical","pH",NA,8.85,NA
+10,"10_4","Chemical","Temperature","Degree C",22.1,NA
+10,"10_4","Chemical","DO_mgl","mg/l",9.42,NA
+10,"10_4","Chemical","DO_percent","%",108,NA
+10,"10_4","Chemical","Conductivity","µS/cm",144.3,NA
+10,"10_4","Chemical","Specific_conductivity","µS/cm",152.8,NA
+10,"10_4","Chemical","pH",NA,8.85,NA
+11,"11_4","Chemical","Temperature","Degree C",22.3,NA
+11,"11_4","Chemical","DO_mgl","mg/l",9.78,NA
+11,"11_4","Chemical","DO_percent","%",112.5,NA
+11,"11_4","Chemical","Conductivity","µS/cm",148.1,NA
+11,"11_4","Chemical","Specific_conductivity","µS/cm",156,NA
+11,"11_4","Chemical","pH",NA,8.46,NA
+12,"12_4","Chemical","Temperature","Degree C",22.3,NA
+12,"12_4","Chemical","DO_mgl","mg/l",9.78,NA
+12,"12_4","Chemical","DO_percent","%",112.5,NA
+12,"12_4","Chemical","Conductivity","µS/cm",148.1,NA
+12,"12_4","Chemical","Specific_conductivity","µS/cm",156,NA
+12,"12_4","Chemical","pH",NA,8.46,NA
+13,"13_4","Chemical","Temperature","Degree C",21.8,NA
+13,"13_4","Chemical","DO_mgl","mg/l",10.14,NA
+13,"13_4","Chemical","DO_percent","%",115.5,NA
+13,"13_4","Chemical","Conductivity","µS/cm",145.9,NA
+13,"13_4","Chemical","Specific_conductivity","µS/cm",155.5,NA
+13,"13_4","Chemical","pH",NA,8.45,NA
+14,"14_4","Chemical","Temperature","Degree C",21.8,NA
+14,"14_4","Chemical","DO_mgl","mg/l",10.14,NA
+14,"14_4","Chemical","DO_percent","%",115.5,NA
+14,"14_4","Chemical","Conductivity","µS/cm",145.9,NA
+14,"14_4","Chemical","Specific_conductivity","µS/cm",155.5,NA
+14,"14_4","Chemical","pH",NA,8.45,NA
+15,"15_4","Chemical","Temperature","Degree C",21,NA
+15,"15_4","Chemical","DO_mgl","mg/l",9.11,NA
+15,"15_4","Chemical","DO_percent","%",102.3,NA
+15,"15_4","Chemical","Conductivity","µS/cm",149.5,NA
+15,"15_4","Chemical","Specific_conductivity","µS/cm",161.8,NA
+15,"15_4","Chemical","pH",NA,8.56,NA
+16,"16_4","Chemical","Temperature","Degree C",21,NA
+16,"16_4","Chemical","DO_mgl","mg/l",9.11,NA
+16,"16_4","Chemical","DO_percent","%",102.3,NA
+16,"16_4","Chemical","Conductivity","µS/cm",149.5,NA
+16,"16_4","Chemical","Specific_conductivity","µS/cm",161.8,NA
+16,"16_4","Chemical","pH",NA,8.56,NA
+17,"17_4","Chemical","Temperature","Degree C",21.8,NA
+17,"17_4","Chemical","DO_mgl","mg/l",9.57,NA
+17,"17_4","Chemical","DO_percent","%",109.1,NA
+17,"17_4","Chemical","Conductivity","µS/cm",147.6,NA
+17,"17_4","Chemical","Specific_conductivity","µS/cm",157,NA
+17,"17_4","Chemical","pH",NA,8.35,NA
+18,"18_4","Chemical","Temperature","Degree C",21.8,NA
+18,"18_4","Chemical","DO_mgl","mg/l",9.57,NA
+18,"18_4","Chemical","DO_percent","%",109.1,NA
+18,"18_4","Chemical","Conductivity","µS/cm",147.6,NA
+18,"18_4","Chemical","Specific_conductivity","µS/cm",157,NA
+18,"18_4","Chemical","pH",NA,8.35,NA
+19,"19_4","Chemical","Temperature","Degree C",21.7,NA
+19,"19_4","Chemical","DO_mgl","mg/l",9.88,NA
+19,"19_4","Chemical","DO_percent","%",112.4,NA
+19,"19_4","Chemical","Conductivity","µS/cm",144.9,NA
+19,"19_4","Chemical","Specific_conductivity","µS/cm",154.7,NA
+19,"19_4","Chemical","pH",NA,8.51,NA
+20,"20_4","Chemical","Temperature","Degree C",21.7,NA
+20,"20_4","Chemical","DO_mgl","mg/l",9.88,NA
+20,"20_4","Chemical","DO_percent","%",112.4,NA
+20,"20_4","Chemical","Conductivity","µS/cm",144.9,NA
+20,"20_4","Chemical","Specific_conductivity","µS/cm",154.7,NA
+20,"20_4","Chemical","pH",NA,8.51,NA
+1,"1_5","Chemical","Temperature","Degree C",17.6,NA
+1,"1_5","Chemical","DO_mgl","mg/l",11.07,NA
+1,"1_5","Chemical","DO_percent","%",116,NA
+1,"1_5","Chemical","Conductivity","µS/cm",135.4,NA
+1,"1_5","Chemical","Specific_conductivity","µS/cm",157.7,NA
+1,"1_5","Chemical","pH",NA,6.38,NA
+2,"2_5","Chemical","Temperature","Degree C",17.6,NA
+2,"2_5","Chemical","DO_mgl","mg/l",11.07,NA
+2,"2_5","Chemical","DO_percent","%",116,NA
+2,"2_5","Chemical","Conductivity","µS/cm",135.4,NA
+2,"2_5","Chemical","Specific_conductivity","µS/cm",157.7,NA
+2,"2_5","Chemical","pH",NA,6.38,NA
+3,"3_5","Chemical","Temperature","Degree C",17.1,NA
+3,"3_5","Chemical","DO_mgl","mg/l",10.79,NA
+3,"3_5","Chemical","DO_percent","%",112,NA
+3,"3_5","Chemical","Conductivity","µS/cm",145.2,NA
+3,"3_5","Chemical","Specific_conductivity","µS/cm",170.9,NA
+3,"3_5","Chemical","pH",NA,7.64,NA
+4,"4_5","Chemical","Temperature","Degree C",17.1,NA
+4,"4_5","Chemical","DO_mgl","mg/l",10.79,NA
+4,"4_5","Chemical","DO_percent","%",112,NA
+4,"4_5","Chemical","Conductivity","µS/cm",145.2,NA
+4,"4_5","Chemical","Specific_conductivity","µS/cm",170.9,NA
+4,"4_5","Chemical","pH",NA,7.64,NA
+5,"5_5","Chemical","Temperature","Degree C",13.8,NA
+5,"5_5","Chemical","DO_mgl","mg/l",10.38,NA
+5,"5_5","Chemical","DO_percent","%",100.2,NA
+5,"5_5","Chemical","Conductivity","µS/cm",133.4,NA
+5,"5_5","Chemical","Specific_conductivity","µS/cm",169.8,NA
+5,"5_5","Chemical","pH",NA,7.79,NA
+6,"6_5","Chemical","Temperature","Degree C",13.8,NA
+6,"6_5","Chemical","DO_mgl","mg/l",10.38,NA
+6,"6_5","Chemical","DO_percent","%",100.2,NA
+6,"6_5","Chemical","Conductivity","µS/cm",133.4,NA
+6,"6_5","Chemical","Specific_conductivity","µS/cm",169.8,NA
+6,"6_5","Chemical","pH",NA,7.79,NA
+7,"7_5","Chemical","Temperature","Degree C",18.3,NA
+7,"7_5","Chemical","DO_mgl","mg/l",9.44,NA
+7,"7_5","Chemical","DO_percent","%",100.5,NA
+7,"7_5","Chemical","Conductivity","µS/cm",262.3,NA
+7,"7_5","Chemical","Specific_conductivity","µS/cm",300.7,NA
+7,"7_5","Chemical","pH",NA,3.94,NA
+8,"8_5","Chemical","Temperature","Degree C",18.3,NA
+8,"8_5","Chemical","DO_mgl","mg/l",9.44,NA
+8,"8_5","Chemical","DO_percent","%",100.5,NA
+8,"8_5","Chemical","Conductivity","µS/cm",262.3,NA
+8,"8_5","Chemical","Specific_conductivity","µS/cm",300.7,NA
+8,"8_5","Chemical","pH",NA,3.94,NA
+9,"9_5","Chemical","Temperature","Degree C",16.1,NA
+9,"9_5","Chemical","DO_mgl","mg/l",9.57,NA
+9,"9_5","Chemical","DO_percent","%",97.2,NA
+9,"9_5","Chemical","Conductivity","µS/cm",123.2,NA
+9,"9_5","Chemical","Specific_conductivity","µS/cm",148.3,NA
+9,"9_5","Chemical","pH",NA,7.83,NA
+10,"10_5","Chemical","Temperature","Degree C",16.1,NA
+10,"10_5","Chemical","DO_mgl","mg/l",9.57,NA
+10,"10_5","Chemical","DO_percent","%",97.2,NA
+10,"10_5","Chemical","Conductivity","µS/cm",123.2,NA
+10,"10_5","Chemical","Specific_conductivity","µS/cm",148.3,NA
+10,"10_5","Chemical","pH",NA,7.83,NA
+11,"11_5","Chemical","Temperature","Degree C",17.9,NA
+11,"11_5","Chemical","DO_mgl","mg/l",9.66,NA
+11,"11_5","Chemical","DO_percent","%",101.9,NA
+11,"11_5","Chemical","Conductivity","µS/cm",139.2,NA
+11,"11_5","Chemical","Specific_conductivity","µS/cm",161,NA
+11,"11_5","Chemical","pH",NA,7.4,NA
+12,"12_5","Chemical","Temperature","Degree C",17.9,NA
+12,"12_5","Chemical","DO_mgl","mg/l",9.66,NA
+12,"12_5","Chemical","DO_percent","%",101.9,NA
+12,"12_5","Chemical","Conductivity","µS/cm",139.2,NA
+12,"12_5","Chemical","Specific_conductivity","µS/cm",161,NA
+12,"12_5","Chemical","pH",NA,7.4,NA
+13,"13_5","Chemical","Temperature","Degree C",18.8,NA
+13,"13_5","Chemical","DO_mgl","mg/l",10.37,NA
+13,"13_5","Chemical","DO_percent","%",111.3,NA
+13,"13_5","Chemical","Conductivity","µS/cm",153.2,NA
+13,"13_5","Chemical","Specific_conductivity","µS/cm",173.8,NA
+13,"13_5","Chemical","pH",NA,7.16,NA
+14,"14_5","Chemical","Temperature","Degree C",18.8,NA
+14,"14_5","Chemical","DO_mgl","mg/l",10.37,NA
+14,"14_5","Chemical","DO_percent","%",111.3,NA
+14,"14_5","Chemical","Conductivity","µS/cm",153.2,NA
+14,"14_5","Chemical","Specific_conductivity","µS/cm",173.8,NA
+14,"14_5","Chemical","pH",NA,7.16,NA
+15,"15_5","Chemical","Temperature","Degree C",17.7,NA
+15,"15_5","Chemical","DO_mgl","mg/l",9.61,NA
+15,"15_5","Chemical","DO_percent","%",100.9,NA
+15,"15_5","Chemical","Conductivity","µS/cm",142.9,NA
+15,"15_5","Chemical","Specific_conductivity","µS/cm",166.2,NA
+15,"15_5","Chemical","pH",NA,9.48,NA
+16,"16_5","Chemical","Temperature","Degree C",17.7,NA
+16,"16_5","Chemical","DO_mgl","mg/l",9.61,NA
+16,"16_5","Chemical","DO_percent","%",100.9,NA
+16,"16_5","Chemical","Conductivity","µS/cm",142.9,NA
+16,"16_5","Chemical","Specific_conductivity","µS/cm",166.2,NA
+16,"16_5","Chemical","pH",NA,9.48,NA
+17,"17_5","Chemical","Temperature","Degree C",17.9,NA
+17,"17_5","Chemical","DO_mgl","mg/l",8.76,NA
+17,"17_5","Chemical","DO_percent","%",92.4,NA
+17,"17_5","Chemical","Conductivity","µS/cm",138.7,NA
+17,"17_5","Chemical","Specific_conductivity","µS/cm",160.4,NA
+17,"17_5","Chemical","pH",NA,7.51,NA
+18,"18_5","Chemical","Temperature","Degree C",17.9,NA
+18,"18_5","Chemical","DO_mgl","mg/l",8.76,NA
+18,"18_5","Chemical","DO_percent","%",92.4,NA
+18,"18_5","Chemical","Conductivity","µS/cm",138.7,NA
+18,"18_5","Chemical","Specific_conductivity","µS/cm",160.4,NA
+18,"18_5","Chemical","pH",NA,7.51,NA
+19,"19_5","Chemical","Temperature","Degree C",18.1,NA
+19,"19_5","Chemical","DO_mgl","mg/l",9.41,NA
+19,"19_5","Chemical","DO_percent","%",99.7,NA
+19,"19_5","Chemical","Conductivity","µS/cm",140.6,NA
+19,"19_5","Chemical","Specific_conductivity","µS/cm",161.9,NA
+19,"19_5","Chemical","pH",NA,7.28,NA
+20,"20_5","Chemical","Temperature","Degree C",18.1,NA
+20,"20_5","Chemical","DO_mgl","mg/l",9.41,NA
+20,"20_5","Chemical","DO_percent","%",99.7,NA
+20,"20_5","Chemical","Conductivity","µS/cm",140.6,NA
+20,"20_5","Chemical","Specific_conductivity","µS/cm",161.9,NA
+20,"20_5","Chemical","pH",NA,7.28,NA

@@ -1,0 +1,8 @@
+"RQ","response_type","comparison","time_frame","family","data","formula","term_of_interest"
+"RQ1","abundance","vs_control","full","tweedie","baci_data","<response> ~ Period * site + monitoring_int + Temperature + (1 | pair_id / site_id)","PeriodAfter:siteStone_pile"
+"RQ1","biomass","vs_control","full","tweedie","baci_data","<response> ~ Period * site + monitoring_int + Temperature + (1 | pair_id / site_id)","PeriodAfter:siteStone_pile"
+"RQ1","occupancy","vs_control","full","binomial","baci_data","<response> ~ Period * site + monitoring_int + Temperature + (1 | pair_id / site_id)","PeriodAfter:siteStone_pile"
+"RQ2","abundance","vs_control","post","tweedie","baci_data_after","<response> ~ site * monitoring_int + Temperature + Substrate_index_before + (1 | site_id)","siteStone_pile:monitoring_int"
+"RQ2","biomass","vs_control","post","tweedie","baci_data_after","<response> ~ site * monitoring_int + Temperature + Substrate_index_before + (1 | site_id)","siteStone_pile:monitoring_int"
+"RQ3","abundance","vs_reference","full","tweedie","convergence_data","<response> ~ site * monitoring_int + Season + Substrate_index_after + (1 | site_id)","siteStone_pile:monitoring_int"
+"RQ3","biomass","vs_reference","full","tweedie","convergence_data","<response> ~ site * monitoring_int + Season + Substrate_index_after + (1 | site_id)","siteStone_pile:monitoring_int"
