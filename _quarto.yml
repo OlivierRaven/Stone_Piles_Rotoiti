@@ -46,4 +46,4 @@ fig-width: 8
 fig-height: 6
 
 bibliography: references/references.bib
-csl: references/apa.csl
+csl: references/freshwater-biology.csl

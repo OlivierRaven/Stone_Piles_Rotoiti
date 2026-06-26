@@ -9467,15 +9467,15 @@ Full fixed-effect estimates (β, SE, 95% CI, p-value) for every term in every mo
 <span id="cb135-6"><a href="#cb135-6" aria-hidden="true" tabindex="-1"></a>             dplyr<span class="sc">::</span><span class="fu">if_else</span>(comparison <span class="sc">==</span> <span class="st">"vs_control"</span>, <span class="st">"Control"</span>, <span class="st">"Reference"</span>), <span class="st">")"</span>),</span>
 <span id="cb135-7"><a href="#cb135-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
 <span id="cb135-8"><a href="#cb135-8" aria-hidden="true" tabindex="-1"></a>      comparison <span class="sc">==</span> <span class="st">"vs_reference"</span>     <span class="sc">~</span> <span class="st">"Convergence"</span>,</span>
-<span id="cb135-9"><a href="#cb135-9" aria-hidden="true" tabindex="-1"></a>      time_frame <span class="sc">==</span> <span class="st">"post"</span>             <span class="sc">~</span> <span class="st">"Trend"</span>,</span>
-<span id="cb135-10"><a href="#cb135-10" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span>                              <span class="sc">~</span> <span class="st">"Step change"</span>),</span>
+<span id="cb135-9"><a href="#cb135-9" aria-hidden="true" tabindex="-1"></a>      time_frame <span class="sc">==</span> <span class="st">"post"</span>             <span class="sc">~</span> <span class="st">"Post-construction trend"</span>,</span>
+<span id="cb135-10"><a href="#cb135-10" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span>                              <span class="sc">~</span> <span class="st">"Construction-effect"</span>),</span>
 <span id="cb135-11"><a href="#cb135-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">significant =</span> p.value <span class="sc">&lt;</span> <span class="fl">0.05</span>,</span>
 <span id="cb135-12"><a href="#cb135-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">model_name  =</span> <span class="fu">factor</span>(model_name, <span class="at">levels =</span> <span class="fu">rev</span>(<span class="fu">unique</span>(model_name))),</span>
-<span id="cb135-13"><a href="#cb135-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">group       =</span> <span class="fu">factor</span>(group, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Step change"</span>, <span class="st">"Trend"</span>, <span class="st">"Convergence"</span>)))</span>
+<span id="cb135-13"><a href="#cb135-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">group       =</span> <span class="fu">factor</span>(group, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Construction-effect"</span>, <span class="st">"Trend"</span>, <span class="st">"Convergence"</span>)))</span>
 <span id="cb135-14"><a href="#cb135-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb135-15"><a href="#cb135-15" aria-hidden="true" tabindex="-1"></a>group_colours <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Step change"</span> <span class="ot">=</span> <span class="st">"#d6604d"</span>,</span>
-<span id="cb135-16"><a href="#cb135-16" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Trend"</span>       <span class="ot">=</span> <span class="st">"#b8860b"</span>,</span>
-<span id="cb135-17"><a href="#cb135-17" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Convergence"</span> <span class="ot">=</span> <span class="st">"#2166ac"</span>)</span>
+<span id="cb135-15"><a href="#cb135-15" aria-hidden="true" tabindex="-1"></a>group_colours <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Construction-effect"</span>     <span class="ot">=</span> <span class="st">"#d6604d"</span>,</span>
+<span id="cb135-16"><a href="#cb135-16" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Post-construction trend"</span> <span class="ot">=</span> <span class="st">"#b8860b"</span>,</span>
+<span id="cb135-17"><a href="#cb135-17" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Convergence"</span>             <span class="ot">=</span> <span class="st">"#2166ac"</span>)</span>
 <span id="cb135-18"><a href="#cb135-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb135-19"><a href="#cb135-19" aria-hidden="true" tabindex="-1"></a>forest_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(forest_data,</span>
 <span id="cb135-20"><a href="#cb135-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(estimate, model_name)) <span class="sc">+</span></span>
@@ -9514,7 +9514,7 @@ Full fixed-effect estimates (β, SE, 95% CI, p-value) for every term in every mo
 <details class="code-fold">
 <summary>View Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb137"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb137-1"><a href="#cb137-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb137-2"><a href="#cb137-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="fu">file.path</span>(out_dir, <span class="st">"fig-forest-plot.png"</span>), forest_plot, <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="dv">8</span>, <span class="at">dpi =</span> <span class="dv">300</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb137-2"><a href="#cb137-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="fu">file.path</span>(out_dir, <span class="st">"fig-forest-plot.png"</span>), forest_plot, <span class="at">width =</span> <span class="dv">6</span>, <span class="at">height =</span> <span class="dv">6</span>, <span class="at">dpi =</span> <span class="dv">300</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>`height` was translated to `width`.</code></pre>
@@ -9563,7 +9563,7 @@ font family not found in Windows font database</code></pre>
 <div id="fig-forest-plot" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-forest-plot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="">
-<a href="analysis_files/figure-html/fig-forest-plot-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Effect sizes (β ± 95% CI) for the key interaction term of every model in model_registry (kōura and catfish, RQ1-RQ3). Filled points indicate significant effects (p < 0.05). Occupancy (RQ1) is on the log-odds scale; abundance/biomass models are on the log scale (Tweedie log link)."><img src="analysis_files/figure-html/fig-forest-plot-1.png" class="img-fluid figure-img" width="2400"></a>
+<a href="analysis_files/figure-html/fig-forest-plot-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Effect sizes (β ± 95% CI) for the key interaction term of every model in model_registry (kōura and catfish, RQ1-RQ3). Filled points indicate significant effects (p < 0.05). Occupancy (RQ1) is on the log-odds scale; abundance/biomass models are on the log scale (Tweedie log link)."><img src="analysis_files/figure-html/fig-forest-plot-1.png" class="img-fluid figure-img" width="1800"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-plot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Effect sizes (β ± 95% CI) for the key interaction term of every model in model_registry (kōura and catfish, RQ1-RQ3). Filled points indicate significant effects (p &lt; 0.05). Occupancy (RQ1) is on the log-odds scale; abundance/biomass models are on the log scale (Tweedie log link).
@@ -12522,8 +12522,8 @@ loaded via a namespace (and not attached):
 <span id="cb155-1535"><a href="#cb155-1535" aria-hidden="true" tabindex="-1"></a><span class="fu">## All models summary plot</span></span>
 <span id="cb155-1538"><a href="#cb155-1538" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
 <span id="cb155-1539"><a href="#cb155-1539" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-forest-plot</span></span>
-<span id="cb155-1540"><a href="#cb155-1540" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-width: 8</span></span>
-<span id="cb155-1541"><a href="#cb155-1541" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-height: 10</span></span>
+<span id="cb155-1540"><a href="#cb155-1540" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-width: 6</span></span>
+<span id="cb155-1541"><a href="#cb155-1541" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-height: 6</span></span>
 <span id="cb155-1542"><a href="#cb155-1542" aria-hidden="true" tabindex="-1"></a><span class="co">#| dpi: 300</span></span>
 <span id="cb155-1543"><a href="#cb155-1543" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Effect sizes (β ± 95% CI) for the key interaction term of every model in model_registry (kōura and catfish, RQ1-RQ3). Filled points indicate significant effects (p &lt; 0.05). Occupancy (RQ1) is on the log-odds scale; abundance/biomass models are on the log scale (Tweedie log link)."</span></span>
 <span id="cb155-1544"><a href="#cb155-1544" aria-hidden="true" tabindex="-1"></a></span>
@@ -12534,15 +12534,15 @@ loaded via a namespace (and not attached):
 <span id="cb155-1549"><a href="#cb155-1549" aria-hidden="true" tabindex="-1"></a>             dplyr<span class="sc">::</span><span class="fu">if_else</span>(comparison <span class="sc">==</span> <span class="st">"vs_control"</span>, <span class="st">"Control"</span>, <span class="st">"Reference"</span>), <span class="st">")"</span>),</span>
 <span id="cb155-1550"><a href="#cb155-1550" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> dplyr<span class="sc">::</span><span class="fu">case_when</span>(</span>
 <span id="cb155-1551"><a href="#cb155-1551" aria-hidden="true" tabindex="-1"></a>      comparison <span class="sc">==</span> <span class="st">"vs_reference"</span>     <span class="sc">~</span> <span class="st">"Convergence"</span>,</span>
-<span id="cb155-1552"><a href="#cb155-1552" aria-hidden="true" tabindex="-1"></a>      time_frame <span class="sc">==</span> <span class="st">"post"</span>             <span class="sc">~</span> <span class="st">"Trend"</span>,</span>
-<span id="cb155-1553"><a href="#cb155-1553" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span>                              <span class="sc">~</span> <span class="st">"Step change"</span>),</span>
+<span id="cb155-1552"><a href="#cb155-1552" aria-hidden="true" tabindex="-1"></a>      time_frame <span class="sc">==</span> <span class="st">"post"</span>             <span class="sc">~</span> <span class="st">"Post-construction trend"</span>,</span>
+<span id="cb155-1553"><a href="#cb155-1553" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span>                              <span class="sc">~</span> <span class="st">"Construction-effect"</span>),</span>
 <span id="cb155-1554"><a href="#cb155-1554" aria-hidden="true" tabindex="-1"></a>    <span class="at">significant =</span> p.value <span class="sc">&lt;</span> <span class="fl">0.05</span>,</span>
 <span id="cb155-1555"><a href="#cb155-1555" aria-hidden="true" tabindex="-1"></a>    <span class="at">model_name  =</span> <span class="fu">factor</span>(model_name, <span class="at">levels =</span> <span class="fu">rev</span>(<span class="fu">unique</span>(model_name))),</span>
-<span id="cb155-1556"><a href="#cb155-1556" aria-hidden="true" tabindex="-1"></a>    <span class="at">group       =</span> <span class="fu">factor</span>(group, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Step change"</span>, <span class="st">"Trend"</span>, <span class="st">"Convergence"</span>)))</span>
+<span id="cb155-1556"><a href="#cb155-1556" aria-hidden="true" tabindex="-1"></a>    <span class="at">group       =</span> <span class="fu">factor</span>(group, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Construction-effect"</span>, <span class="st">"Trend"</span>, <span class="st">"Convergence"</span>)))</span>
 <span id="cb155-1557"><a href="#cb155-1557" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb155-1558"><a href="#cb155-1558" aria-hidden="true" tabindex="-1"></a>group_colours <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Step change"</span> <span class="ot">=</span> <span class="st">"#d6604d"</span>,</span>
-<span id="cb155-1559"><a href="#cb155-1559" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Trend"</span>       <span class="ot">=</span> <span class="st">"#b8860b"</span>,</span>
-<span id="cb155-1560"><a href="#cb155-1560" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Convergence"</span> <span class="ot">=</span> <span class="st">"#2166ac"</span>)</span>
+<span id="cb155-1558"><a href="#cb155-1558" aria-hidden="true" tabindex="-1"></a>group_colours <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Construction-effect"</span>     <span class="ot">=</span> <span class="st">"#d6604d"</span>,</span>
+<span id="cb155-1559"><a href="#cb155-1559" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Post-construction trend"</span> <span class="ot">=</span> <span class="st">"#b8860b"</span>,</span>
+<span id="cb155-1560"><a href="#cb155-1560" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Convergence"</span>             <span class="ot">=</span> <span class="st">"#2166ac"</span>)</span>
 <span id="cb155-1561"><a href="#cb155-1561" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb155-1562"><a href="#cb155-1562" aria-hidden="true" tabindex="-1"></a>forest_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(forest_data,</span>
 <span id="cb155-1563"><a href="#cb155-1563" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(estimate, model_name)) <span class="sc">+</span></span>
@@ -12574,7 +12574,7 @@ loaded via a namespace (and not attached):
 <span id="cb155-1589"><a href="#cb155-1589" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position    =</span> <span class="st">"none"</span>,</span>
 <span id="cb155-1590"><a href="#cb155-1590" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_line</span>(<span class="at">colour =</span> <span class="st">"grey92"</span>, <span class="at">linewidth =</span> <span class="fl">0.3</span>))</span>
 <span id="cb155-1591"><a href="#cb155-1591" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb155-1592"><a href="#cb155-1592" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="fu">file.path</span>(out_dir, <span class="st">"fig-forest-plot.png"</span>), forest_plot, <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="dv">8</span>, <span class="at">dpi =</span> <span class="dv">300</span>)</span>
+<span id="cb155-1592"><a href="#cb155-1592" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="fu">file.path</span>(out_dir, <span class="st">"fig-forest-plot.png"</span>), forest_plot, <span class="at">width =</span> <span class="dv">6</span>, <span class="at">height =</span> <span class="dv">6</span>, <span class="at">dpi =</span> <span class="dv">300</span>)</span>
 <span id="cb155-1593"><a href="#cb155-1593" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb155-1594"><a href="#cb155-1594" aria-hidden="true" tabindex="-1"></a>forest_plot</span>
 <span id="cb155-1595"><a href="#cb155-1595" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>

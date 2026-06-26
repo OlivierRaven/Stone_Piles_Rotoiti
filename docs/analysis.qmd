@@ -1483,8 +1483,8 @@ tidy_all_full
 ## All models summary plot
 ```{r}
 #| label: fig-forest-plot
-#| fig-width: 8
-#| fig-height: 10
+#| fig-width: 6
+#| fig-height: 6
 #| dpi: 300
 #| fig-cap: "Effect sizes (β ± 95% CI) for the key interaction term of every model in model_registry (kōura and catfish, RQ1-RQ3). Filled points indicate significant effects (p < 0.05). Occupancy (RQ1) is on the log-odds scale; abundance/biomass models are on the log scale (Tweedie log link)."
 
@@ -1495,15 +1495,15 @@ forest_data <- tidy_all %>%
              dplyr::if_else(comparison == "vs_control", "Control", "Reference"), ")"),
     group = dplyr::case_when(
       comparison == "vs_reference"     ~ "Convergence",
-      time_frame == "post"             ~ "Trend",
-      TRUE                              ~ "Step change"),
+      time_frame == "post"             ~ "Post-construction trend",
+      TRUE                              ~ "Construction-effect"),
     significant = p.value < 0.05,
     model_name  = factor(model_name, levels = rev(unique(model_name))),
-    group       = factor(group, levels = c("Step change", "Trend", "Convergence")))
+    group       = factor(group, levels = c("Construction-effect", "Trend", "Convergence")))
 
-group_colours <- c("Step change" = "#d6604d",
-                   "Trend"       = "#b8860b",
-                   "Convergence" = "#2166ac")
+group_colours <- c("Construction-effect"     = "#d6604d",
+                   "Post-construction trend" = "#b8860b",
+                   "Convergence"             = "#2166ac")
 
 forest_plot <- ggplot(forest_data,
     aes(estimate, model_name)) +
@@ -1535,7 +1535,7 @@ forest_plot <- ggplot(forest_data,
     legend.position    = "none",
     panel.grid.major.x = element_line(colour = "grey92", linewidth = 0.3))
 
-ggsave(file.path(out_dir, "fig-forest-plot.png"), forest_plot, width = 8, height = 8, dpi = 300)
+ggsave(file.path(out_dir, "fig-forest-plot.png"), forest_plot, width = 6, height = 6, dpi = 300)
 
 forest_plot
 ```
