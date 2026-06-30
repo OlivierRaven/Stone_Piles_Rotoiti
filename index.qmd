@@ -194,12 +194,20 @@ The code and derived data supporting the findings of this study are openly avail
 #| echo: false
 #| tbl-cap: "Full fixed-effect estimates (β, SE, 95% CI, p-value) for every term in every model currently in model_registry. Unlike the interaction-only summary above, this surfaces covariate effects (e.g. Substrate_index_after, Season) directly rather than requiring a one-off check per model."
 
-# Read from the CSV analysis.qmd already writes, rather than embedding the
-# chunk directly — {{< embed >}} on this specific chunk consistently fails
-# with "cell does not exist" even though analysis.qmd executes it without
-# error, an apparent limitation in this Quarto build's embed pipeline for
-# a notebook this large/complex. Reading the CSV sidesteps it entirely.
-knitr::kable(read.csv("outputs/tbl-models-summary-full.csv"), digits = 3)
+# Read from CSV (embed fails on this chunk due to notebook size — see comment above)
+tbl_full <- read.csv("outputs/tbl-models-summary-full.csv")
+if (knitr::is_html_output()) {
+  DT::datatable(
+    tbl_full,
+    filter = "top",
+    options = list(pageLength = 20, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+    extensions = 'Buttons',
+    rownames = FALSE
+  ) |>
+    DT::formatRound(columns = c("estimate","std.error","statistic","p.value","p_adj_BH","conf.low","conf.high"), digits = 3)
+} else {
+  knitr::kable(tbl_full, digits = 3)
+}
 ```
 
 ```{r}

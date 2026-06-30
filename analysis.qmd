@@ -26,7 +26,7 @@ execute:
 #| label: setup
 #| include: false
 
-packages <- c("MuMIn","lunar","glmmTMB","DHARMa","broom.mixed","emmeans","lmerTest","lme4","patchwork","tidyverse","writexl","readxl")
+packages <- c("DT","MuMIn","lunar","glmmTMB","DHARMa","broom.mixed","emmeans","lmerTest","lme4","patchwork","tidyverse","writexl","readxl")
 
 quiet_load <- function(pkg) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
@@ -439,7 +439,8 @@ missing_table <- all_data %>%
   select(site_id, site, Monitoring_label, monitoring_id, monitoring_quality) %>%
   arrange(site_id, Monitoring_label)
 
-missing_table
+knitr::kable(missing_table,
+             col.names = c("Site ID", "Site", "Monitoring label", "Monitoring ID", "Quality"))
 
 ```
 
@@ -957,7 +958,20 @@ if (group_var == "site_id") {
 
 write.csv(EnvBio_summary_table, file = file.path(out_dir, "EnvBio_summary_table.csv"), row.names = FALSE)
 
-knitr::kable(EnvBio_summary_table, digits = 2, align = c("l","l","l","r","r","r","r","r","r","r"))
+DT::datatable(
+  EnvBio_summary_table,
+  filter = "top",
+  options = list(
+    pageLength = 20,
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel'),
+    columnDefs = list(list(className = 'dt-center', targets = 3:9))
+  ),
+  extensions = 'Buttons',
+  rownames = FALSE,
+  colnames = c("Site", "Variable", "Unit", "n", "Mean", "Median", "Min", "Max", "CI low", "CI high")
+) |>
+  DT::formatRound(columns = c("Mean","Median","Min","Max","CI_low","CI_high"), digits = 2)
 
 ```
 
@@ -1199,7 +1213,14 @@ rq1_full_tidy <- rq1_results %>%
   dplyr::select(model_id, species, response_type, term, estimate, std.error, statistic, p.value, p_adj_BH, conf.low, conf.high) %>%
   dplyr::mutate(across(where(is.numeric), ~ round(.x, 3)))
 
-knitr::kable(rq1_full_tidy)
+DT::datatable(
+  rq1_full_tidy,
+  filter = "top",
+  options = list(pageLength = 15, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+  extensions = 'Buttons',
+  rownames = FALSE
+) |>
+  DT::formatRound(columns = c("estimate","std.error","statistic","p.value","p_adj_BH","conf.low","conf.high"), digits = 3)
 ```
 
 ## Post-construction trend (RQ2 — abundance and biomass, Stone_pile vs Control)
@@ -1243,7 +1264,14 @@ rq2_full_tidy <- rq2_results %>%
   dplyr::select(model_id, species, response_type, term, estimate, std.error, statistic, p.value, p_adj_BH, conf.low, conf.high) %>%
   dplyr::mutate(across(where(is.numeric), ~ round(.x, 3)))
 
-knitr::kable(rq2_full_tidy)
+DT::datatable(
+  rq2_full_tidy,
+  filter = "top",
+  options = list(pageLength = 15, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+  extensions = 'Buttons',
+  rownames = FALSE
+) |>
+  DT::formatRound(columns = c("estimate","std.error","statistic","p.value","p_adj_BH","conf.low","conf.high"), digits = 3)
 ```
 
 ## Convergence to reference conditions (RQ3 — abundance and biomass, Stone_pile vs Reference)
@@ -1287,7 +1315,14 @@ rq3_full_tidy <- rq3_results %>%
   dplyr::select(model_id, species, response_type, term, estimate, std.error, statistic, p.value, p_adj_BH, conf.low, conf.high) %>%
   dplyr::mutate(across(where(is.numeric), ~ round(.x, 3)))
 
-knitr::kable(rq3_full_tidy)
+DT::datatable(
+  rq3_full_tidy,
+  filter = "top",
+  options = list(pageLength = 15, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+  extensions = 'Buttons',
+  rownames = FALSE
+) |>
+  DT::formatRound(columns = c("estimate","std.error","statistic","p.value","p_adj_BH","conf.low","conf.high"), digits = 3)
 ```
 
 ### Predicted trajectories (kōura abundance convergence)
@@ -1452,7 +1487,14 @@ tidy_all <- model_registry %>%
                 term, estimate, std.error, statistic, p.value, conf.low, conf.high) %>%
   dplyr::mutate(across(where(is.numeric), ~ round(.x, 3)))
 
-tidy_all
+DT::datatable(
+  tidy_all,
+  filter = "top",
+  options = list(pageLength = 14, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+  extensions = 'Buttons',
+  rownames = FALSE
+) |>
+  DT::formatRound(columns = c("estimate","std.error","statistic","p.value","conf.low","conf.high"), digits = 3)
 
 ```
 
@@ -1477,7 +1519,14 @@ tidy_all_full <- model_registry %>%
 
 write.csv(tidy_all_full, file.path(out_dir, "tbl-models-summary-full.csv"), row.names = FALSE)
 
-tidy_all_full
+DT::datatable(
+  tidy_all_full,
+  filter = "top",
+  options = list(pageLength = 20, dom = 'Bfrtip', buttons = c('csv', 'excel')),
+  extensions = 'Buttons',
+  rownames = FALSE
+) |>
+  DT::formatRound(columns = c("estimate","std.error","statistic","p.value","p_adj_BH","conf.low","conf.high"), digits = 3)
 ```
 
 ## All models summary plot
