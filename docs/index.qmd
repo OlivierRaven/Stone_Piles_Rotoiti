@@ -1,6 +1,6 @@
 ---
 title: "Rock Piles as Kōura Habitat"
-subtitle: "Habitat enhancement for a native freshwater crayfish threatened by an invasive predator: a field trial of stone pile structures in an Aotearoa New Zealand lake"
+subtitle: "Stone pile refuges in an Aotearoa New Zealand lake: early benefits for threatened crayfish but not their invasive predator"
 
 execute:
   freeze: false
@@ -113,7 +113,7 @@ knitr:
   \node[color=white, text width=0.85\paperwidth, align=left,
         font=\fontsize{10}{13}\selectfont\itshape\sffamily, anchor=north west]
     at ([xshift=1.5cm, yshift=-5.0cm]current page.north west)
-    {Habitat enhancement for a native freshwater crayfish threatened by an invasive predator: a field trial of stone pile structures in an Aotearoa New Zealand lake};
+    {Stone pile refuges in an Aotearoa New Zealand lake: early benefits for threatened crayfish but not their invasive predator};
   \fill[black]
     (current page.south west) rectangle ([yshift=4.5cm]current page.south east);
   \node[color=white, text width=0.85\paperwidth, align=left,
@@ -131,7 +131,7 @@ knitr:
 
 ::: {.content-visible when-format="docx"}
 Chapter 5 Rock Piles as Kōura Habitat
-Habitat enhancement for a native freshwater crayfish threatened by an invasive predator: a field trial of stone pile structures in an Aotearoa New Zealand lake
+Stone pile refuges in an Aotearoa New Zealand lake: early benefits for threatened crayfish but not their invasive predator
 
 ![](images/ch5_cover.jpg){fig-align="center" width=15cm}
 
@@ -303,7 +303,7 @@ Stone pile structures were deployed in the littoral zone of Lake Rotoiti to test
 ### Construction effect and statistical power
 Kōura catch rates were highly variable across all site types throughout the monitoring period, with wide confidence intervals, likely reflecting genuine biological variability in kōura distribution. This variability may reflect seasonal activity patterns, detection probability changes across monitoring rounds, and natural heterogeneity in littoral zone use, rather than stable site associations. Despite this variability, the Bayesian occupancy model revealed a consistent positive directional trend, with stone pile sites showing higher occupancy than control sites, and occupancy comparable to natural rocky reference sites across both summer and autumn monitoring rounds. Whether this reflects active refuge-seeking driven by catfish predation pressure or gradual colonisation and population expansion into newly available habitats cannot be determined from the current data, but the direction of the response was consistent with the purpose of the structures, yet no statistically significant effect was detected within the 18-month monitoring period.
 
-The absence of a significant effect is most likely explained by a combination of monitoring duration, statistical power, and system dynamics rather than ineffectiveness of the structures. Habitat establishment for freshwater crayfish can be inherently slow. @Johnsen2008 reported that crayfish abundance at a stone addition site took 13 years to reach reference levels, and monitoring periods shorter than two years are often insufficient to detect significant responses to habitat modification [@Testa2011; @Ruh2012; @Pilotto2018]. Following reconstruction of the Lake Rotorua lakefront, which is located in close proximity to our study site, kōura showed no meaningful recolonisation after 28 months [@Kusabs2023]. They attributed slow recolonisation to persistent catfish predation pressure and distance from source population, consistent with time scales observed here. The power analysis indicates that five site pairs are insufficient to reliably detect effects of the magnitude observed here within 18 months, establishing a minimum design threshold: future stone pile monitoring programmes should plan for at least three years of monitoring and expect high pre-construction occupancy, leaving little statistical room for a measurable treatment effect. The simultaneous elevation of kōura CPUE across all site types in Autumn 2025 further complicated detection of an early treatment effect in the BACI contrast.
+The absence of a significant effect is most likely explained by a combination of monitoring duration, statistical power, and system dynamics rather than ineffectiveness of the structures. Habitat establishment for freshwater crayfish can be inherently slow. @Johnsen2008 reported that crayfish abundance at a stone addition site took 13 years to reach reference levels, and monitoring periods shorter than two years are often insufficient to detect significant responses to habitat modification [@Testa2011; @Ruh2012; @Pilotto2018]. Following reconstruction of the Lake Rotorua lakefront, which is connected to Lake Rotoiti, kōura showed no meaningful recolonisation after 28 months [@Kusabs2023]. They attributed slow recolonisation to persistent catfish predation pressure and distance from source population, consistent with time scales observed here. The power analysis indicates that five site pairs are insufficient to reliably detect effects of the magnitude observed here within 18 months, establishing a minimum design threshold: future stone pile monitoring programmes should plan for at least three years of monitoring and expect high pre-construction occupancy, leaving little statistical room for a measurable treatment effect. The simultaneous elevation of kōura CPUE across all site types in Autumn 2025 further complicated detection of an early treatment effect in the BACI contrast.
 
 Features of the system itself may also contribute to the weak response. Kōura abundance is highest in lakes without catfish [@Raven2026b], suggesting predation pressure may suppress kōura populations well below the carrying capacity of existing habitat. If so, structural habitat availability may not currently be the primary limiting factor, and a weak or delayed response to habitat addition would be expected. Equally, if kōura are already at carrying capacity of existing rocky habitat, stone piles add new capacity that will only be filled gradually as the population expands, which is unlikely to be detectable within 18 months. In either case, a delayed rather than absent population response would be expected. Isolated stone pile structures may also be difficult for kōura to locate, since distance between isolated habitat patches is a key determinant of colonisation success [@Hanski1998]. Each of these explanations point toward a delayed, rather than absent, population response, and continued monitoring would be the appropriate next step rather than a reassessment of the intervention itself.
 
@@ -342,7 +342,7 @@ This research was supported by the Fish Futures programme funded through a Minis
 Study conception and design were undertaken by Olivier V. Raven, Ian A. K. Kusabs, Robin Holmes, Francis J. Burdon and Deniz Özkundakci. Fieldwork was executed by Olivier V. Raven. Data analysis was performed by Olivier V. Raven. Ian A. K. Kusabs obtained council and iwi consent and provided local ecological knowledge. Manuscript drafting was led by Olivier V. Raven. All authors contributed to manuscript revision, approved the results, and the final manuscript.
 
 ### Use of Artificial Intelligence
-Use of Artificial Intelligence: Claude (Anthropic) was used to assist with manuscript editing and language refinement. All content was critically reviewed, and the authors take full responsibility for the final manuscript.
+Use of Artificial Intelligence: Claude (Anthropic Sonnet 5.0) was used to assist with manuscript editing and language refinement. All content was critically reviewed, and the authors take full responsibility for the final manuscript.
 
 ### Declarations
 The corresponding author has declared that none of the authors has any competing interests.
@@ -446,6 +446,8 @@ knitr::kable(psi_w, align = c("l", "l", "l", "c"),
 ![Simulation-based power curves for the occupancy BACI (left) and kōura CPUE BACI (right). Each line represents a different number of After-period monitoring rounds. Dashed line marks 80 % power.](outputs/fig-power-curves-combined.png){#fig-power-curves-combined width=80%}
 
 ![Predicted kōura CPUE trajectories over monitoring rounds at stone pile and reference sites from the abundance convergence model. Shaded ribbons represent 95% confidence intervals. The annotation shows the key interaction term ($\beta$ ± p-value) and model R² values for fixed effects (R²m) and conditional (R²c).](outputs/fig-convergence-plot.png){#fig-convergence-plot width=65%}
+
+![Progressive algal biofouling at stone pile site 9 in Lake Rotoiti across three monitoring periods. Summer 2025 (top left, shortly after construction) shows clean stone surfaces. Summer 2026 (bottom left) moderate biofilm accumulation is visible. Winter 2026 (right) shows cover of stone surfaces by filamentous algae.](images/Stone_pile_development.png){#fig-stone-piles width=100%}
 
 :::
 

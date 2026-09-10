@@ -173,7 +173,9 @@ hist(Fish_data |> dplyr::filter(is_koura) |> dplyr::pull(length_mm), xlab = "Len
 
 a <- coef(lw_model)[1]
 b <- coef(lw_model)[2]
-formula_text <- paste0( "log10(Weight[g]) = ", round(a, 3), " + ", round(b, 3), " * log10(OCL Length[mm])")
+r2_lw <- summary(lw_model)$r.squared
+formula_text <- paste0( "log10(Weight[g]) = ", round(a, 3), " + ", round(b, 3), " * log10(OCL Length[mm])",
+  "\nR² = ", round(r2_lw, 3), ", n = ", measured_n)
 
 length_weight_plot <- ggplot(
 Fish_data |> dplyr::filter(is_koura),
