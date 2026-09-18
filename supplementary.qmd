@@ -1,4 +1,4 @@
-## Chapter 5 — Supplementary information {.unnumbered}
+﻿## Chapter 5 — Supplementary information {.unnumbered}
 
 ![Depth-resolved water temperature (°C, top) and dissolved oxygen (mg/L, bottom) in Lake Rotoiti throughout the study period (February 2025 – July 2026). Data derived from the LimnoTrack continuous monitoring buoy [@Moore2026]. Vertical green line marks stone pile deployment; dashed vertical lines mark seasonal monitoring rounds. Warm colours in the DO panel (orange–black) indicate hypoxic and anoxic conditions (< 5 mg/L), demonstrating the pronounced summer stratification that compresses oxygenated habitat into the shallow littoral zone.](outputs/fig-lake-conditions.png){#fig-lake-conditions width=100%}
 
@@ -38,30 +38,32 @@ if (isTRUE(getOption("thesis.is.html")) && knitr::is_html_output()) {
 #| tbl-cap: "Baseline (pre-construction) comparability of stone pile, control, and reference sites. Values are mean ± SD; p-values test Stone pile vs Control (paired Wilcoxon signed-rank test) and Stone pile vs Reference (unpaired Wilcoxon rank-sum test)."
 
 baseline_combined <- readr::read_csv(file.path("outputs", "tbl-baseline-combined.csv"), show_col_types = FALSE)
-col_names_bl <- c("Variable", "Stone pile", "Control", "Reference",
-                  "*p* vs Control", "*p* vs Reference")
+col_names_bl_html  <- c("Variable", "Stone pile", "Control", "Reference",
+                        "p vs Control", "p vs Reference")
+col_names_bl_latex <- c("Variable", "Stone pile", "Control", "Reference",
+                        "$p$ vs Control", "$p$ vs Reference")
 if (isTRUE(getOption("thesis.is.html")) && knitr::is_html_output()) {
   DT::datatable(baseline_combined, filter = "top", rownames = FALSE,
-                colnames = col_names_bl,
+                colnames = col_names_bl_html,
                 options = list(pageLength = 25, dom = 'Bfrtip', buttons = c('csv', 'excel')),
                 extensions = 'Buttons')
 } else if (knitr::is_latex_output()) {
   knitr::kable(baseline_combined, digits = 3,
-               col.names = col_names_bl, escape = FALSE,
+               col.names = col_names_bl_latex, escape = FALSE,
                booktabs = TRUE) |>
     kableExtra::kable_styling(
       latex_options = c("striped", "hold_position"),
       font_size     = 8,
       stripe_color  = "gray!8")
 } else {
-  knitr::kable(baseline_combined, digits = 3, col.names = col_names_bl)
+  knitr::kable(baseline_combined, digits = 3, col.names = col_names_bl_html)
 }
 ```
 
 ```{r}
 #| label: tbl-psi-warm-supp
 #| echo: false
-#| tbl-cap: "Posterior kōura occupancy probability ($\\psi$) from the warm-season occupancy model (Summer and Autumn rounds). Values are population-level estimates averaged over random site effects, with 95 % credible intervals. Autumn has no Before period as baseline monitoring was conducted in summer only."
+#| tbl-cap: "Posterior kōura occupancy probability ($\\psi$) from the warm-season occupancy model (Summer and Autumn rounds). Values are population-level estimates averaged over random site effects, with 95% credible intervals. Autumn has no Before period as baseline monitoring was conducted in summer only."
 
 psi_w <- readr::read_csv(file.path("outputs", "tbl-psi-warm.csv"), show_col_types = FALSE)
 if (isTRUE(getOption("thesis.is.html")) && knitr::is_html_output()) {
@@ -86,7 +88,7 @@ if (isTRUE(getOption("thesis.is.html")) && knitr::is_html_output()) {
 }
 ```
 
-![Simulation-based power curves for the occupancy BACI (left) and kōura CPUE BACI (right). Each line represents a different number of After-period monitoring rounds. Dashed line marks 80 % power.](outputs/fig-power-curves-combined.png){#fig-power-curves-combined width=100%}
+![Simulation-based power curves for the occupancy BACI (left) and kōura CPUE BACI (right). Each line represents a different number of After-period monitoring rounds. Dashed line marks 80% power.](outputs/fig-power-curves-combined.png){#fig-power-curves-combined width=100%}
 
 ![Predicted kōura CPUE trajectories over monitoring rounds at stone pile and reference sites from the abundance convergence model. Shaded ribbons represent 95% confidence intervals. The annotation shows the key interaction term ($\beta$ ± p-value) and model R² values for fixed effects (R²m) and conditional (R²c).](outputs/fig-convergence-plot.png){#fig-convergence-plot width=100%}
 
