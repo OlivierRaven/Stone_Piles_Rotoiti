@@ -4,8 +4,6 @@
 
 ![Length–weight relationship for kōura, fitted on log₁₀–log₁₀ scale. Open points are weights predicted from the length–weight regression (used to fill missing scale measurements); filled points are directly measured weights.](outputs/fig-length-weight-ch5.png){#fig-length-weight-ch5 width=80%}
 
-![Progressive algal biofouling at stone pile site 9 in Lake Rotoiti across three monitoring periods. Summer 2025 (top left, shortly after construction) shows clean stone surfaces. Summer 2026 (bottom left) shows moderate biofilm accumulation. Winter 2026 (right) shows extensive cover of stone surfaces by filamentous algae.](images/Stone_pile_development.png){#fig-stone-piles width=80%}
-
 ```{r}
 #| label: tbl-models-summary-full-supp
 #| echo: false
@@ -92,3 +90,5 @@ if (isTRUE(getOption("thesis.is.html")) && knitr::is_html_output()) {
 ![Simulation-based power curves for the occupancy BACI (left) and kōura CPUE BACI (right). Each line represents a different number of After-period monitoring rounds. Dashed line marks 80% power.](outputs/fig-power-curves-combined.png){#fig-power-curves-combined width=100%}
 
 ![Predicted kōura CPUE trajectories over monitoring rounds at stone pile and reference sites from the abundance convergence model. Shaded ribbons represent 95% confidence intervals. The annotation shows the key interaction term ($\beta$ ± p-value) and model R² values for fixed effects (R²m) and conditional (R²c).](outputs/fig-convergence-plot.png){#fig-convergence-plot width=100%}
+
+![Progressive algal biofouling at stone pile site 9 in Lake Rotoiti across three monitoring periods. Summer 2025 (top left, shortly after construction) shows clean stone surfaces. Summer 2026 (bottom left) shows moderate biofilm accumulation. Winter 2026 (right) shows extensive cover of stone surfaces by filamentous algae.](images/Stone_pile_development.png){#fig-stone-piles width=80%}
