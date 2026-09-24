@@ -61,4 +61,4 @@ fig-width: 8
 fig-height: 6
 
 bibliography: references/references.bib
-csl: references/ecological-restoration.csl
+csl: references/restoration-ecology.csl

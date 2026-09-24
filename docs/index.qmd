@@ -231,7 +231,7 @@ after_rng  <- psi_extract(psi_after_summer,  "ψ (mean [95% CrI])")
 ## Abstract {.unnumbered}
 **Introduction**: Kōura (*Paranephrops planifrons*), Aotearoa New Zealand’s endemic freshwater crayfish, have declined by up to 91% in Lake Rotoiti (Te Arawa Lakes, Rotorua), driven by predation from the invasive brown bullhead catfish (*Ameiurus nebulosus*) and thermal stratification that compresses suitable habitat into the shallow littoral zone, stressors that cannot be removed at the lake scale.
 
-**Objectives**: We tested whether stone pile structures could provide kōura with structural refuge from catfish predation, and established a transferable construction methodology for lake managers.
+**Objectives**: We tested whether stone pile structures could provide kōura with structural refuge from catfish predation and established a transferable construction methodology for lake managers.
 
 **Methods**: Kōura and catfish were monitored at 20 locations (five stone piles, five control, and ten reference sites) over 18 months using a quasi before-after control-impact (quasi-BACI) design. Kōura occupancy was modelled within a Bayesian framework incorporating detection probabilities from baited traps and fyke nets, alongside a simulation-based power analysis.
 
